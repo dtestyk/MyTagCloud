@@ -51,7 +51,7 @@ chrome.extension.onConnect.addListener(function(port){
     var str_json_garr = response
     var garr = JSON.parse(str_json_garr)
     garr.reverse()
-    globalState.garr = garr
+    globalState.garr = getGlob(bgUI, "garr", garr)
     
     onTabUpdate(tab);
     port.postMessage({document: null});

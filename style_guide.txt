@@ -1,0 +1,32 @@
+on_txt_tags_key_down rather then on_txttags_keydown
+more underscores better
+
+on_txt_tags_key_down rather then onTxtTagsKeyDown
+no camel
+
+var prev_selected_page_key_code
+lower case var
+
+const PREV_SELECTED_PAGE_KEY_CODE
+upper case const
+
+is_ok
+must_ok
+was_ok
+i_next
+n_length
+arr_entities
+str_file_name
+use prefix to specify type
+
+is_loaded = was_load_start && is_load_finish || was_loaded
+if(is_loaded)
+use var clarification
+
+function some_func(e){
+if(is_ok){
+no spaces, no line break before open curve bracket
+
+var a = 0
+no semicolon, if possible
+use semicolon in bookmarklet

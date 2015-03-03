@@ -61,25 +61,25 @@ function isArray(a)
 		}
 
 
-		function makeGarr(garrStr)//g
-		{
-			var garr = [];
-			var str = "";
-			var arr = [];
-			var arrTags;
-			for(var i in garrStr ){
-				str = garrStr[i];
-				arr = str.split(";");
-				arrTags = arr[2].split(",");
-				garr.push({
-					addr: arr[0],
-					hashAddr: arr[1],
-					tags: arrTags
-				});
-			}
-			garr.reverse();
-			return garr;
-		}
+		// function makeGarr(garrStr)//g
+		// {
+			// var garr = [];
+			// var str = "";
+			// var arr = [];
+			// var arrTags;
+			// for(var i in garrStr ){
+				// str = garrStr[i];
+				// arr = str.split(";");
+				// arrTags = arr[2].split(",");
+				// garr.push({
+					// addr: arr[0],
+					// hashAddr: arr[1],
+					// tags: arrTags
+				// });
+			// }
+			// garr.reverse();
+			// return garr;
+		// }
 		
 		
 		function setGlob(bgUI, strName)
@@ -105,7 +105,7 @@ function isArray(a)
 		{
 			var strNow = "";
 			if( arrPageTags.length>0 ){
-				strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(", ");
+				strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(" ");
 			}
 			return strNow;
 		}
@@ -122,10 +122,11 @@ bgUI = CreateBgUI();
 //var garr = makeGarr(LoadGarr());
 //globalState.garr = garr//getGlob(bgUI, "garr", garr);
 
-function queryPageTags(arrPageTags, tab)
+function queryPageTags(url, arrPageTags, tab)
 {
 	if( arrPageTags !== null ){
-		sessionStates[tab.id].page[tab.url].arrPageTags = arrPageTags;
+		//sessionStates[tab.id].page[url].arrPageTags = arrPageTags;
+    sessionStates[tab.id].arrPageTags = arrPageTags;
 		var i = findAddr(tab.url, globalState.garr);
     var is_exist = i >= 0
     var must_exist = arrPageTags.length > 0
@@ -133,8 +134,8 @@ function queryPageTags(arrPageTags, tab)
     if (is_exist && must_exist){
       //replace
       globalState.garr[i] = {
-				addr: tab.url,
-				hashAddr: fnv1a(tab.url),
+				addr: url,
+				hashAddr: fnv1a(url),
 				tags: arrPageTags
 			}
     }
@@ -147,16 +148,18 @@ function queryPageTags(arrPageTags, tab)
     if (!is_exist && must_exist){
       //insert
       globalState.garr.push({
-				addr: tab.url,
-				hashAddr: fnv1a(tab.url),
+				addr: url,
+				hashAddr: fnv1a(url),
 				tags: arrPageTags
 			});
     }
     
     var is_modified = is_exist || must_exist
+    //console.log(is_modified,bgUI,garr)
 		if(is_modified) setGlob(bgUI, "garr")
 	}
-	return sessionStates[tab.id].page[tab.url].arrPageTags;
+	//return sessionStates[tab.id].page[url].arrPageTags;
+  return sessionStates[tab.id].arrPageTags;
 }
 
 function queryTagsBySomeAddrs(arrAddrObj)
@@ -177,6 +180,7 @@ function onTabCreate(tab)
 {
 	sessionStates[tab.id] = {
 		bMustDisplay: null,
+		bMustFocusTxtTags: null,
 		strLastMembered: "",
 		arrSelectedTag: null,
 		page: null
@@ -184,31 +188,40 @@ function onTabCreate(tab)
 }
 
 function onTabUpdate(tab)
-{
+{///tab.url
 	if(!sessionStates[tab.id]) onTabCreate(tab);
 	sessionStates[tab.id].page = {};
 	sessionStates[tab.id].page[tab.url] = {};
 	var i = findAddr(tab.url, globalState.garr);
 	if( i>=0 ){
-		sessionStates[tab.id].page[tab.url].arrPageTags = globalState.garr[i].tags;
-		sessionStates[tab.id].strLastMembered = makeStrLastMembered(tab.url, globalState.garr[i].tags);
+		//sessionStates[tab.id].page[tab.url].arrPageTags = globalState.garr[i].tags;
+		//sessionStates[tab.id].strLastMembered = makeStrLastMembered(tab.url, globalState.garr[i].tags);
 	}else{
 		sessionStates[tab.id].page[tab.url].arrPageTags = [];
 	}
 }
+
+// function update_str_last_remembered(tab, url){
+	// if(!sessionStates[tab.id]) onTabCreate(tab);
+	// var i = findAddr(url, globalState.garr);
+	// if( i>=0 ){
+		// sessionStates[tab.id].strLastMembered = makeStrLastMembered(url, globalState.garr[i].tags);
+	// }
+// }
 
 function onMsg(msg, tab)
 {
 	var answer = {};
   if (msg.hasOwnProperty("page") ){
 		answer["page"] = {};
-		if( msg.page.hasOwnProperty("arrPageTags") ){
+		if( msg.page.hasOwnProperty("arrPageTags") &&
+      msg.page.hasOwnProperty("url")){
       //garr modification
-			answer.page["arrPageTags"] = queryPageTags(msg.page.arrPageTags, tab);
+			answer.page["arrPageTags"] = queryPageTags(msg.page.url, msg.page.arrPageTags, tab);
 		}
-		if( msg.page.hasOwnProperty("url") ){
-			answer.page["url"] = tab.url;
-		}
+		// if( msg.page.hasOwnProperty("url") ){
+			// answer.page["url"] = tab.url;
+		// }
 	}
 	if (msg.hasOwnProperty("global") ){
 		answer["global"] = {};
@@ -226,7 +239,7 @@ function onMsg(msg, tab)
 			}
 		}
 	}
-	if (msg.hasOwnProperty("session") ){
+	if (msg.hasOwnProperty("session")){
 		var sess = {};
 		for ( var prop in msg.session ) {
 			if( msg.session[prop] === null ){

@@ -13,14 +13,6 @@
 //arrSelectedTag u additionTags => url
 
 //
-//global consts
-//
-
-const DOWNLOAD_KEY_CODE = 77
-const PREV_SELECTED_PAGE_KEY_CODE = 38
-const NEXT_SELECTED_PAGE_KEY_CODE = 40
-
-//
 //global vars
 //
 		var garr = [];
@@ -32,7 +24,6 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		var sess = {};
     //sess: {
     //  bMustDisplay:false,
-    //  bMustFocusTxtTags:false,
     //  arrSelectedTag: [{tag:'', has:false}],
     //  strLastMembered:''
     //}
@@ -43,8 +34,6 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		var UI = {};
 		var garrSelected = [];
 		var iRecAddition = 0;
-    var garr_selected_only = []
-    var index_selected_only = 0
     
     //arrPageTags
     
@@ -259,7 +248,6 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		{
 			return {
 				bMustDisplay: getSess(UI, "bMustDisplay", true),
-				bMustFocusTxtTags: getSess(UI, "bMustFocusTxtTags", false),
 				arrSelectedTag: getSess(UI, "arrSelectedTag", []),
 			};
 		}
@@ -339,37 +327,6 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 			}
 			return arrSelectedTag;
 		}
-    
-		function get_garr_selected_only(garrSelected, arrSelectedTag)
-		{
-      var garr_selected_only = []
-			for(var iRec=0; iRec<garrSelected.length; iRec++) {
-				if( typeof garrSelected[iRec] != "function" ){
-          var related = garrSelected[iRec]
-          var tags_related = related.tags
-          var is_tags_match = true
-          for(var j=0; j<tags_related.length; j++){
-            var strTag = tags_related[j]
-            var is_related_selected = indexOfObj(arrSelectedTag,"tag",strTag)>=0
-					  is_tags_match &= is_related_selected
-          }
-          if(is_tags_match) garr_selected_only.push(related)
-				}
-			}
-			return garr_selected_only
-		}
-    
-    function get_index_selected_only(get_garr_selected_only, curr_url)
-		{
-			for(var i=0; i<get_garr_selected_only.length; i++) {
-        var related = garrSelected[i]
-        var tags_related = related.tags
-        var is_now = related.addr == curr_url
-        if(is_now) return i
-			}
-			return -1
-		}
-    
 //
 //data actions
 //
@@ -445,14 +402,6 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
       delete a
       URL.revokeObjectURL(oUrl)
     }
-    
-    function update_str_last_membered(garr_selected_only, index_selected_only){
-      if(garr_selected_only.length > 0 && index_selected_only >= 0){
-        var selected = garr_selected_only[index_selected_only]
-        sess.strLastMembered = selected.tags.join(' ')
-        setTabSess("strLastMembered");
-      }
-    }
 
 //
 //UI handlers
@@ -517,12 +466,12 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
       var strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(" ");
 			//var strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(" ");
 			//UI.window.alert("remember\n"+strNow)
+			
 			port.postMessage({
 				global: {
 					garr: null
 				},
 				session: {
-          bMustFocusTxtTags: false,
 					strLastMembered: strNow
 				},
 				page: {
@@ -541,27 +490,9 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
     
     function on_document_key_down(e)
 		{
-			if(e.ctrlKey && e.keyCode == DOWNLOAD_KEY_CODE) download_garr()
+			if(e.ctrlKey && e.keyCode == 77) download_garr()
 		}
     
-    function on_txt_tags_key_down(e){
-      if(
-        e.keyCode != PREV_SELECTED_PAGE_KEY_CODE &&
-        e.keyCode != NEXT_SELECTED_PAGE_KEY_CODE
-      ){
-        return
-      }
-      e.preventDefault()
-      var n = garr_selected_only.length
-			if(e.keyCode == PREV_SELECTED_PAGE_KEY_CODE){
-        var i_prev = Math.max(0, index_selected_only-1)
-        ShowSelectedPage(garr_selected_only, i_prev)
-      }
-      if(e.keyCode == NEXT_SELECTED_PAGE_KEY_CODE){
-        var i_next = Math.max(n-1, index_selected_only+1)
-        ShowSelectedPage(garr_selected_only, i_next)
-      }
-		}
 //
 //UI build
 //
@@ -610,23 +541,19 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 				UI.odvHead.appendChild(ohr);
 				UI.odvTagCloud = UI.doc.createElement("div");
 				UI.odvHead.appendChild(UI.odvTagCloud);
+				UI.ohrTagCloud = UI.doc.createElement("hr");
+				UI.odvHead.appendChild(UI.ohrTagCloud);
+				UI.odvResult = UI.doc.createElement("div");
+				UI.odvHead.appendChild(UI.odvResult);
 			oBody.insertBefore(UI.odvHead,oBody.firstChild);
 			//oBody.appendChild(UI.odvHead);
 			
 			UI.odvFooter = UI.doc.createElement("div");
-        UI.odvFooter.style.position="fixed";
-        UI.odvFooter.style.zIndex=2147483646;
-        UI.odvFooter.style.left="0px";
-        UI.odvFooter.style.bottom="0px";
-        UI.odvFooter.style.width="100%";
-          
-				UI.odvResult = UI.doc.createElement("div");
-        UI.odvResult.style.textAlign = 'left'
-				UI.odvFooter.appendChild(UI.odvResult);
-        //UI.ohrTagCloud = UI.doc.createElement("hr");
-        //UI.odvFooter.appendChild(UI.ohrTagCloud);
-        
 				UI.otxTags = UI.doc.createElement("input");
+					UI.otxTags.style.position="fixed";
+					UI.otxTags.style.zIndex=2147483646;
+					UI.otxTags.style.left="0px";
+					UI.otxTags.style.bottom="0px";
 					UI.otxTags.type="text";
 					UI.otxTags.style.width="100%";
 				UI.odvFooter.appendChild(UI.otxTags);
@@ -658,7 +585,6 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		{
 			addHandler(UI.obtnComplite, "click", makeFull);
 			addHandler(UI.otxTags, "blur", remember);
-      addHandler(UI.otxTags, "keydown", on_txt_tags_key_down);
 			addWheelHandler(UI.odvTagSelect, nextAddition);
 			addHandler(UI.ocbDisplay, "click", cbDisplayChange);
       addHandler(UI.doc, "keydown", on_document_key_down);
@@ -669,8 +595,7 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		function ShowInput(sess)
 		{
 			if( sess.strLastMembered != "" ){
-				UI.otxTags.value = sess.strLastMembered
-        //.split(";")[2];
+				UI.otxTags.value = sess.strLastMembered.split(";")[2];
 			}else{
 				UI.otxTags.value = "";
 			}
@@ -738,25 +663,31 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 			//var bFlag = (UI.odvTagCloud.innerHTML!="");
 			//display(UI.ohrTagCloud, bFlag);
 		}
-    
-    function ShowResults(garr_selected_only, index_selected_only)
+		
+		
+		function ShowResults(garrSelected, arrSelectedTag)
 		{
 			UI.odvResult.innerHTML="";
 			var oBr = null;
-			for(var i=0; i<garr_selected_only.length; i++) {
-        var is_now = i == index_selected_only
-        var selected = garr_selected_only[i]
-        oPointer = UI.doc.createElement("span");
-        oPointer.innerHTML = is_now? '&gt;': '&nbsp;&nbsp;'
-        UI.odvResult.appendChild(oPointer);
-        
-        var o = UI.doc.createElement("span");
-        var url_view = selected.addr.replace(/^http:\/\//, '')
-        setText(UI, o, url_view);
-        //o.href=selected.addr;
-        UI.odvResult.appendChild(o);
-        oBr = UI.doc.createElement("br");
-        UI.odvResult.appendChild(oBr);
+			for(var iRec=0; iRec<garrSelected.length; iRec++) {
+				if( typeof garrSelected[iRec] != "function" ){
+          var tags_related = garrSelected[iRec].tags
+          var is_tags_match = true
+          for(var j=0; j<tags_related.length; j++){
+            var strTag = tags_related[j]
+            var is_related_selected = indexOfObj(arrSelectedTag,"tag",strTag)>=0
+					  is_tags_match &= is_related_selected
+          }
+          
+          if(is_tags_match){
+            var o = UI.doc.createElement("a");
+            setText(UI, o, garrSelected[iRec].addr);
+            o.href=garrSelected[iRec].addr;
+            UI.odvResult.appendChild(o);
+            oBr = UI.doc.createElement("br");
+            UI.odvResult.appendChild(oBr);
+          }
+				}
 			}
 			if( oBr )UI.odvResult.removeChild(oBr);
 		}
@@ -795,18 +726,6 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 				}
 			}
 		}
-    
-    function ShowSelectedPage(garr_selected_only, index)
-		{
-      var selected = garr_selected_only[index]
-			if( typeof selected !="undefined" ){
-				if( UI.window.location.toString() != selected.addr ){
-          sess["bMustFocusTxtTags"] = true
-          setTabSess("bMustFocusTxtTags");
-					navigateURL(UI, selected.addr);
-				}
-			}
-		}
 		
 		function ShowAllButPage()
 		{
@@ -817,13 +736,8 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
       //remove tags from sess.arrSelectedTag
 			var arrTag = arrTagCreate(garrSelected, sess.arrSelectedTag);
 			ShowCloud(arrTag);
-      var curr_url = UI.window.location.toString();
       //leave only tags from sess.arrSelectedTag
-      garr_selected_only = get_garr_selected_only(garrSelected, sess.arrSelectedTag)
-      index_selected_only = get_index_selected_only(garr_selected_only, curr_url)
-			ShowResults(garr_selected_only, index_selected_only);
-      update_str_last_membered(garr_selected_only, index_selected_only)
-
+			ShowResults(garrSelected, sess.arrSelectedTag);
 			iRecAddition = 0;
 			ShowAddition(iRecAddition);
 		}
@@ -836,15 +750,9 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 
 		function ShowDisplay(sess)
 		{
-      UI.ocbDisplay.checked = sess.bMustDisplay;
 			display(UI.odvHead, sess.bMustDisplay);
 			display(UI.odvFooter, sess.bMustDisplay);
 		}
-
-		function focus_txt_tags(must_focus){
-			if(must_focus) UI.otxTags.focus()
-		}
-
 
 //
 //message passing
@@ -866,7 +774,6 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 					},
 					session: {
 						bMustDisplay: null,
-						bMustFocusTxtTags: null,
 						arrSelectedTag: null,
 						strLastMembered: null
 					},
@@ -909,19 +816,15 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		
 		if( msg.hasOwnProperty("session") ){
 			if( msg.session.hasOwnProperty("bMustDisplay") ){
-        sess.bMustDisplay = msg.session.bMustDisplay
+				UI.ocbDisplay.checked = sess.bMustDisplay;
 				ShowDisplay(sess);
-			}
-			if( msg.session.hasOwnProperty("bMustFocusTxtTags") ){
-        sess.bMustFocusTxtTags = msg.session.bMustFocusTxtTags
-				focus_txt_tags(sess.bMustFocusTxtTags)
 			}
 			if( msg.session.hasOwnProperty("arrSelectedTag") ){
 				ShowAllButPage();
 			}
 			if( msg.session.hasOwnProperty("strLastMembered") ){
 				sess.strLastMembered = msg.session.strLastMembered;
-				ShowInput(msg.session);
+				ShowInput(sess);
 			}
 		}
 	}

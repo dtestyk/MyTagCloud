@@ -1,4 +1,4 @@
-console.log('d')
+console.log('f')
 var bgUI = {}
 var sessionStates={};
 var globalState={
@@ -117,34 +117,44 @@ function CreateBgUI()
 	return bgUI;
 }
 
-bgUI= CreateBgUI();
-var garr = makeGarr(LoadGarr());
-globalState.garr = getGlob(bgUI, "garr", garr);
+bgUI = CreateBgUI();
+
+//var garr = makeGarr(LoadGarr());
+//globalState.garr = garr//getGlob(bgUI, "garr", garr);
 
 function queryPageTags(arrPageTags, tab)
 {
 	if( arrPageTags !== null ){
 		sessionStates[tab.id].page[tab.url].arrPageTags = arrPageTags;
 		var i = findAddr(tab.url, globalState.garr);
-		if (i >= 0){
-			globalState.garr[i] = {
+    var is_exist = i >= 0
+    var must_exist = arrPageTags.length > 0
+    
+    if (is_exist && must_exist){
+      //replace
+      globalState.garr[i] = {
 				addr: tab.url,
 				hashAddr: fnv1a(tab.url),
 				tags: arrPageTags
 			}
-		} else {
-			i=globalState.garr.length;
-			globalState.garr.push({
+    }
+    
+    if (is_exist && !must_exist){
+      //delete
+      globalState.garr.splice(i,1);
+    }
+    
+    if (!is_exist && must_exist){
+      //insert
+      globalState.garr.push({
 				addr: tab.url,
 				hashAddr: fnv1a(tab.url),
 				tags: arrPageTags
 			});
-		}
-		if( arrPageTags.length == 0 ){
-			sessionStates[tab.id].page[tab.url].arrPageTags = [];
-			globalState.garr.splice(i,1);
-		}
-		setGlob(bgUI, "garr")
+    }
+    
+    var is_modified = is_exist || must_exist
+		if(is_modified) setGlob(bgUI, "garr")
 	}
 	return sessionStates[tab.id].page[tab.url].arrPageTags;
 }
@@ -190,6 +200,16 @@ function onTabUpdate(tab)
 function onMsg(msg, tab)
 {
 	var answer = {};
+  if (msg.hasOwnProperty("page") ){
+		answer["page"] = {};
+		if( msg.page.hasOwnProperty("arrPageTags") ){
+      //garr modification
+			answer.page["arrPageTags"] = queryPageTags(msg.page.arrPageTags, tab);
+		}
+		if( msg.page.hasOwnProperty("url") ){
+			answer.page["url"] = tab.url;
+		}
+	}
 	if (msg.hasOwnProperty("global") ){
 		answer["global"] = {};
 		if (msg.global.hasOwnProperty("garr") ){
@@ -219,15 +239,6 @@ function onMsg(msg, tab)
 			sess[prop] = sessionStates[tab.id][prop];
 		}
 		answer["session"] = sess;
-	}
-	if (msg.hasOwnProperty("page") ){
-		answer["page"] = {};
-		if( msg.page.hasOwnProperty("arrPageTags") ){
-			answer.page["arrPageTags"] = queryPageTags(msg.page.arrPageTags, tab);
-		}
-		if( msg.page.hasOwnProperty("url") ){
-			answer.page["url"] = tab.url;
-		}
 	}
 	return answer;
 }

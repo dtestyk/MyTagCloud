@@ -3,15 +3,30 @@
 //modifier for tags subset
 
 
+//use Object.observe
+//  show changes
+//  store changes
+
+//arrSelectedTag => garrSelected => arrTag
+//arrSelectedTag n arrTag = empty
+//additionTags < arrTag
+//arrSelectedTag u additionTags => url
+
 //
 //global vars
 //
 		var garr = [];
+    //[{tags:[''], hashAddr:0, addr:''}]
 //
 //session vars
 //
 
 		var sess = {};
+    //sess: {
+    //  bMustDisplay:false,
+    //  arrSelectedTag: [{tag:'', has:false}],
+    //  strLastMembered:''
+    //}
 
 //
 //page vars
@@ -19,7 +34,12 @@
 		var UI = {};
 		var garrSelected = [];
 		var iRecAddition = 0;
+    
+    //arrPageTags
+    
+    //arrTag: [{tag:'',n:0});
 
+    
 //
 //common functions
 //
@@ -232,7 +252,7 @@
 				arrSelectedTag: getSess(UI, "arrSelectedTag", []),
 			};
 		}
-		
+
 		function garrSelect(garr, arrSelectedTag)//p
 		{
 		//need request to other peers
@@ -362,14 +382,27 @@
 				setTabSess("arrSelectedTag");
 			}
 		}
-		function insertGarr(strAddr, arrTags)
-		{
-			garr.unshift({
-				addr: strAddr,
-				hashAddr: fnv1a(strAddr),
-				tags: arrTags
-			});
-		}
+		// function insertGarr(url, tags)
+		// {
+			// garr.unshift({
+				// addr: url,
+				// hashAddr: fnv1a(url),
+				// tags: tags
+			// });
+		// }
+    
+    function download_garr(){
+      var str_text = JSON.stringify(garr, null, 2)
+      var str_file_name = 'config.json'
+
+      var a = document.createElement('a')
+      a.download = str_file_name;
+      var oUrl = URL.createObjectURL(new Blob([str_text], {type: 'text/json'}))
+      a.href = oUrl
+      a.click()
+      delete a
+      URL.revokeObjectURL(oUrl)
+    }
 
 //
 //UI handlers
@@ -424,17 +457,15 @@
 		
 		function remember()
 		{
-			var strTags = UI.otxTags.value.trim();
-			var arrPageTagsTmp = strTags.split(",")
-			var arrPageTags = [];
-			for(var i=0; i<arrPageTagsTmp.length; i++){
-				var strTag = arrPageTagsTmp[i].trim();
-				if( strTag != "" ){
-					arrPageTags.push(strTag);
-				}
-			}
+			var strTags = UI.otxTags.value;
+			var arrPageTags = strTags
+        .split(',') //.split(" ")
+        .map(function(s){return s.trim()})
+        .filter(function(e){return Boolean(e)});
+        
 			var strAddr = UI.window.location.toString();
-			var strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(", ");
+      var strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(", ");
+			//var strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(" ");
 			//UI.window.alert("remember\n"+strNow)
 			
 			port.postMessage({
@@ -445,6 +476,7 @@
 					strLastMembered: strNow
 				},
 				page: {
+          // used for saving in garr
 					arrPageTags: arrPageTags
 				}
 			});
@@ -455,6 +487,12 @@
 			sess.bMustDisplay = UI.ocbDisplay.checked;
 			setTabSess("bMustDisplay");
 		}
+    
+    function on_document_key_down(e)
+		{
+			if(e.ctrlKey && e.keyCode == 77) download_garr()
+		}
+    
 //
 //UI build
 //
@@ -549,6 +587,7 @@
 			addHandler(UI.otxTags, "blur", remember);
 			addWheelHandler(UI.odvTagSelect, nextAddition);
 			addHandler(UI.ocbDisplay, "click", cbDisplayChange);
+      addHandler(UI.doc, "keydown", on_document_key_down);
 		}
 //
 //show
@@ -745,6 +784,7 @@
 			if( msg.global.hasOwnProperty("garr") ){
 				if( isArray(msg.global.garr) ){
 					garr = msg.global.garr;
+          console.log(JSON.stringify(garr))
 				}
 			}
 		}

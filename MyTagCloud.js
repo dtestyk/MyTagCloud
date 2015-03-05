@@ -241,6 +241,18 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 			}
 			return obj;
 		}
+    
+    function sort_params(url){
+      var pars1=url.split('?')
+      var par1=pars1[1]
+      if(par1){
+        var pars2=par1.split('#')
+          pars2[0] = pars2[0].split('&').sort().join('&')
+        par1 = pars2.join('#')
+        pars1[1] = par1
+      }
+      return pars1.join('?')
+    }
 
 //
 //data functions
@@ -282,9 +294,10 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 					}
 				}
 			}
-			garrSelected.sort(function(a,b){
-				return (a.tags.length - b.tags.length) ;
-			});
+			// garrSelected.sort(function(a,b){
+				// return (a.tags.length - b.tags.length) ;
+			// });
+      garrSelected.reverse()
 			return garrSelected;
 		}
 		
@@ -294,23 +307,21 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 			var i, j, jj;
 			var arrTag = [];
 			for( i=0; i<garrSelected.length; i++){
-				if( typeof garrSelected[i] != "function" ){
-					for( j=0; j<garrSelected[i].tags.length; j++) {
-						strTag = garrSelected[i].tags[j];
-						if( typeof strTag != "function" ){
-							if( indexOfObj(arrSelectedTag,"tag",strTag)<0 ){
-								jj = indexOfObj(arrTag,"tag",strTag);
-								if( jj < 0 ){
-									arrTag.push({
-										tag: strTag,
-										n: 1
-									});
-								} else {
-									++arrTag[jj].n;
-								}
-							}
-						}
-					}
+				if(typeof garrSelected[i] == "function") continue
+        for( j=0; j<garrSelected[i].tags.length; j++) {
+          strTag = garrSelected[i].tags[j];
+          if(typeof strTag == "function") continue
+          if( indexOfObj(arrSelectedTag,"tag",strTag)<0 ){
+            jj = indexOfObj(arrTag,"tag",strTag);
+            if( jj < 0 ){
+              arrTag.push({
+                tag: strTag,
+                n: 1
+              });
+            } else {
+              ++arrTag[jj].n;
+            }
+          }
 				}
 			}
 			return arrTag;
@@ -361,10 +372,11 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
     
     function get_index_selected_only(get_garr_selected_only, curr_url)
 		{
+      var url_norm = sort_params(curr_url)
 			for(var i=0; i<get_garr_selected_only.length; i++) {
         var related = garrSelected[i]
         var tags_related = related.tags
-        var is_now = related.addr == curr_url
+        var is_now = related.addr == url_norm
         if(is_now) return i
 			}
 			return -1
@@ -725,6 +737,7 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 				if( typeof(arrTag[i]) != "function" ){
 					var o = UI.doc.createElement("a");
 					o.style.fontSize=(100+Math.floor(arrTag[i].iSize*61.8)).toString()+"%";
+          //o.style.fontSize=Math.floor(12+12*arrTag[i].iSize)+'px'
 					//o.style.color="#0000ff";
 					setText(UI, o, arrTag[i].tag);
 					addHandler(o,'click',tagSelectClick);
@@ -790,7 +803,9 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		function ShowPage()
 		{
 			if( typeof(garrSelected[iRecAddition])!="undefined" ){
-				if( UI.window.location.toString() != garrSelected[iRecAddition].addr ){
+        var curr_url = UI.window.location.toString()
+        var url_norm = sort_params(curr_url)
+				if( url_norm != garrSelected[iRecAddition].addr ){
 					navigateURL(UI, garrSelected[iRecAddition].addr);
 				}
 			}
@@ -800,7 +815,9 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		{
       var selected = garr_selected_only[index]
 			if( typeof selected !="undefined" ){
-				if( UI.window.location.toString() != selected.addr ){
+        var curr_url = UI.window.location.toString()
+        var url_norm = sort_params(curr_url)
+				if( url_norm != selected.addr ){
           sess["bMustFocusTxtTags"] = true
           setTabSess("bMustFocusTxtTags");
 					navigateURL(UI, selected.addr);

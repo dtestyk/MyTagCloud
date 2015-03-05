@@ -8,7 +8,6 @@ get tags by url on page side
 not because plan to request from other nodes
 if on page side need reconnect with every page
 
-remove all tags not work
 
 url params order may change
 

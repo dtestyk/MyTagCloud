@@ -45,8 +45,10 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 function on_tab_update_sess_info(port, tabId, changeInfo, tab) {
   if(changeInfo.status == 'complete'){
   //error port disconnected
-    port.postMessage({session: sessionStates[tab.id]});
-    //port.postMessage({document: null});
+    try{
+      port.postMessage({session: sessionStates[tab.id]});
+      //port.postMessage({document: null});
+    }catch(e){}
   }
 }
 
@@ -74,7 +76,7 @@ chrome.extension.onConnect.addListener(function(port){
     
     var str_json_garr = response
     var garr = JSON.parse(str_json_garr)
-    garr.reverse()
+    //garr.reverse()
     globalState.garr = getGlob(bgUI, "garr", garr)
     
     onTabUpdate(tab);

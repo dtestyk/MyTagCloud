@@ -109,6 +109,18 @@ function isArray(a)
 			}
 			return strNow;
 		}
+    
+    function sort_params(url){
+      var pars1=url.split('?')
+      var par1=pars1[1]
+      if(par1){
+        var pars2=par1.split('#')
+          pars2[0] = pars2[0].split('&').sort().join('&')
+        par1 = pars2.join('#')
+        pars1[1] = par1
+      }
+      return pars1.join('?')
+    }
 		
 function CreateBgUI()
 {
@@ -125,19 +137,22 @@ bgUI = CreateBgUI();
 function queryPageTags(url, arrPageTags, tab)
 {
 	if( arrPageTags !== null ){
+    var url_norm = sort_params(url)
 		//sessionStates[tab.id].page[url].arrPageTags = arrPageTags;
     sessionStates[tab.id].arrPageTags = arrPageTags;
-		var i = findAddr(url, globalState.garr);
+		var i = findAddr(url_norm, globalState.garr);
     var is_exist = i >= 0
     var must_exist = arrPageTags.length > 0
     
+    var rec = {
+      addr: url_norm,
+      hashAddr: fnv1a(url_norm),
+      tags: arrPageTags
+    }
+    
     if (is_exist && must_exist){
       //replace
-      globalState.garr[i] = {
-				addr: url,
-				hashAddr: fnv1a(url),
-				tags: arrPageTags
-			}
+      globalState.garr[i] = rec
     }
     
     if (is_exist && !must_exist){
@@ -147,11 +162,7 @@ function queryPageTags(url, arrPageTags, tab)
     
     if (!is_exist && must_exist){
       //insert
-      globalState.garr.push({
-				addr: url,
-				hashAddr: fnv1a(url),
-				tags: arrPageTags
-			});
+      globalState.garr.push(rec);
     }
     
     var is_modified = is_exist || must_exist
@@ -190,9 +201,10 @@ function onTabCreate(tab)
 function onTabUpdate(tab)
 {
 	if(!sessionStates[tab.id]) onTabCreate(tab);
+  var url_norm = sort_params(tab.url)
 	sessionStates[tab.id].page = {};
 	//sessionStates[tab.id].page[tab.url] = {};
-	var i = findAddr(tab.url, globalState.garr);
+	var i = findAddr(url_norm, globalState.garr);
 	if( i>=0 ){
 		sessionStates[tab.id].arrPageTags = globalState.garr[i].tags;
                 //sessionStates[tab.id].page[tab.url].arrPageTags = globalState.garr[i].tags;

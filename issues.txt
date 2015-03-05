@@ -1,2 +1,21 @@
-add to bottom list of urls with checkboxes
-when uncheck remove from garr
+default setup is show(checkbox),
+but on tab open hidden
+
+no get tags from url
+navigation not by tags
+
+get tags by url on page side
+not because plan to request from other nodes
+if on page side need reconnect with every page
+
+remove all tags not work
+
+url params order may change
+
+auto tags surfing:
+  deactivate tag by timeout, 
+  ignore tag by timeout
+  random tag select
+  proportional to n
+  
+hashchange event on window

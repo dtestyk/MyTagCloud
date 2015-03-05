@@ -127,7 +127,7 @@ function queryPageTags(url, arrPageTags, tab)
 	if( arrPageTags !== null ){
 		//sessionStates[tab.id].page[url].arrPageTags = arrPageTags;
     sessionStates[tab.id].arrPageTags = arrPageTags;
-		var i = findAddr(tab.url, globalState.garr);
+		var i = findAddr(url, globalState.garr);
     var is_exist = i >= 0
     var must_exist = arrPageTags.length > 0
     
@@ -188,16 +188,17 @@ function onTabCreate(tab)
 }
 
 function onTabUpdate(tab)
-{///tab.url
+{
 	if(!sessionStates[tab.id]) onTabCreate(tab);
 	sessionStates[tab.id].page = {};
-	sessionStates[tab.id].page[tab.url] = {};
+	//sessionStates[tab.id].page[tab.url] = {};
 	var i = findAddr(tab.url, globalState.garr);
 	if( i>=0 ){
-		//sessionStates[tab.id].page[tab.url].arrPageTags = globalState.garr[i].tags;
+		sessionStates[tab.id].arrPageTags = globalState.garr[i].tags;
+                //sessionStates[tab.id].page[tab.url].arrPageTags = globalState.garr[i].tags;
 		//sessionStates[tab.id].strLastMembered = makeStrLastMembered(tab.url, globalState.garr[i].tags);
 	}else{
-		sessionStates[tab.id].page[tab.url].arrPageTags = [];
+		sessionStates[tab.id].arrPageTags = [];
 	}
 }
 

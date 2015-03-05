@@ -513,8 +513,8 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
         .map(function(s){return s.trim()})
         .filter(function(e){return Boolean(e)});
         
-			var strAddr = UI.window.location.toString();
-      var strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(" ");
+			var curr_url = UI.window.location.toString();
+      var str_page_tags = arrPageTags.join(" ");
 			//var strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(" ");
 			//UI.window.alert("remember\n"+strNow)
 			port.postMessage({
@@ -523,11 +523,11 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 				},
 				session: {
           bMustFocusTxtTags: false,
-					strLastMembered: strNow
+					strLastMembered: str_page_tags
 				},
 				page: {
           // used for saving in garr
-          url: UI.window.location.toString(),
+          url: curr_url,
 					arrPageTags: arrPageTags
 				}
 			});
@@ -858,7 +858,7 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 				UI = CreateUI(doc);
 				setStyles(UI);
 				bindEvents(UI);
-				
+				var url = UI.window.location.toString()
 				sess = getAllSess(UI);
 				port.postMessage({
 					global: {
@@ -871,7 +871,8 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 						strLastMembered: null
 					},
 					page: {
-						arrPageTags: null
+						arrPageTags: null,
+            url: url
 					}
 				});
 			}
@@ -903,6 +904,7 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 			){
 				if( isArray(msg.page.arrPageTags) ){
 					commitSelect(msg.page.arrPageTags);
+                                        ShowAllButPage();
 				}
 			}
 		}

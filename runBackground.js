@@ -30,10 +30,33 @@ var xhr = function(url, params) {
 }
 
 chrome.tabs.onCreated.addListener(function(tab){
-	onTabCreate(tab);
+  console.log("created",tab)
+	//onTabCreate(tab);
 });
 
+chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+  console.log(tabId, changeInfo, tab)
+  //changeInfo.status == complete
+  //changeInfo.url
+  if(changeInfo.url) onTabUpdate(tab)
+  //if(changeInfo.status == 'complete') send_session_info()
+})
+
+function on_tab_update_sess_info(port, tabId, changeInfo, tab) {
+  if(changeInfo.status == 'complete'){
+  //error port disconnected
+    port.postMessage({session: sessionStates[tab.id]});
+    //port.postMessage({document: null});
+  }
+}
+
 chrome.extension.onConnect.addListener(function(port){
+  var tab_handler = on_tab_update_sess_info.bind(this, port)
+
+	port.onDisconnect.removeListener(function(){
+		chrome.tabs.onUpdated.addListener(tab_handler)
+	});
+   
 	port.onMessage.addListener(function(msg){
 		port.postMessage(onMsg(msg, tab));
 	});
@@ -42,6 +65,7 @@ chrome.extension.onConnect.addListener(function(port){
 		id: port.sender.tab.id,
 		url: port.sender.tab.url
 	}
+  console.log("connected",tab)
 	
   
   xhr(chrome.extension.getURL('config.json'))
@@ -55,5 +79,7 @@ chrome.extension.onConnect.addListener(function(port){
     
     onTabUpdate(tab);
     port.postMessage({document: null});
+    
+    chrome.tabs.onUpdated.addListener(tab_handler)
   })
 });

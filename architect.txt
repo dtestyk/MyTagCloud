@@ -1,0 +1,32 @@
+curr_url: background on tab url change
+
+selected_tags <= curr_url | prev_selected_tags: background on request
+
+garr, selected_tags => related: background
+related => selected => selected_urls
+selected_urls, selected_index => selected_url
+related => related_tags
+related => related_urls
+related_urls, related_index => related_url
+
+curr_url => page_tags: background
+str_tags <= page_tags | prev_str_tags: background on request
+
+
+tab session:
+  prev_selected_tags
+  prev_page_tags
+  
+page:
+  curr_url
+  page_tags
+  
+page load:
+  background => selected_tags, related
+  background => page_tags
+txt tags blur:
+  curr_url, page_tags => background => garr
+  page_tags => background: prev_page_tags
+tag select/ban/unselect:
+  selected_tags => background => related
+  selected_tags => background: prev_selected_tags

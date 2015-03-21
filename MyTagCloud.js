@@ -19,6 +19,7 @@
 const DOWNLOAD_KEY_CODE = 77
 const PREV_SELECTED_PAGE_KEY_CODE = 38
 const NEXT_SELECTED_PAGE_KEY_CODE = 40
+const N_TAGS_CLOUD_MAX = 100
 
 //
 //global vars
@@ -721,14 +722,18 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 		function ShowCloud(arrTag)
 		{
 			var arrTagSortByN = arrTag.slice();
-			arrTagSortByN.sort(function(a,b){
+			arrTagSortByN
+      .sort(function(a,b){
 				return (a.n - b.n);
-			});
+			})
+      .splice(0, Math.max(0, arrTag.length-N_TAGS_CLOUD_MAX))
 			
-			for(var j=i=0,n=arrTagSortByN.length; i<n;++i){
+      for(var i=0; i<arrTag.length; i++) arrTag[i].bShow = false
+			for(var j=i=0,n=arrTagSortByN.length; i<n; i++){
 				if( (i>0) && (arrTagSortByN[i-1].n != arrTagSortByN[i].n) )j=i;
 				// изменяется массив arrTagSortByN, изменения отражаются на arrTag
 				arrTagSortByN[i].iSize = j/n;
+        arrTagSortByN[i].bShow = true
 			}
 			
 			UI.odvTagCloud.innerHTML="";
@@ -736,10 +741,12 @@ const NEXT_SELECTED_PAGE_KEY_CODE = 40
 			for(var i=0; i<arrTag.length; i++) {
 				if( typeof(arrTag[i]) != "function" ){
 					var o = UI.doc.createElement("a");
-					o.style.fontSize=(100+Math.floor(arrTag[i].iSize*61.8)).toString()+"%";
+          var tag = arrTag[i]
+					if(!tag.bShow) continue
+          o.style.fontSize=(100+Math.floor(tag.iSize*61.8)).toString()+"%";
           //o.style.fontSize=Math.floor(12+12*arrTag[i].iSize)+'px'
 					//o.style.color="#0000ff";
-					setText(UI, o, arrTag[i].tag);
+					setText(UI, o, tag.tag);
 					addHandler(o,'click',tagSelectClick);
 					o.href="javascript:void(0);";
 					UI.odvTagCloud.appendChild(o);

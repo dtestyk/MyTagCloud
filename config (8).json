@@ -1,0 +1,2095 @@
+[
+  {
+    "addr": "http://www.shoutcast.com",
+    "hashAddr": "1813585337",
+    "tags": [
+      "shoutcast",
+      "online",
+      "radio"
+    ]
+  },
+  {
+    "addr": "http://www.shoutcast.com/radio/Dance%20Pop",
+    "hashAddr": "1437308249",
+    "tags": [
+      "shoutcast",
+      "radio",
+      "online",
+      "dance",
+      "pop"
+    ]
+  },
+  {
+    "addr": "javascript:void(ws = new WebSocket('ws://127.0.0.1:81'),ws.onopen = function(){console.log('Connection opened...'),ws.onmessage = function(evt){console.log(evt.data),document.querySelector('.dirbg .playbutton').click()}},ws.onclose = function() { console.log('Connection closed...') })",
+    "hashAddr": "811360737",
+    "tags": [
+      "shoutcast",
+      "radio",
+      "online",
+      "dance",
+      "pop",
+      "!continue_play"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/",
+    "hashAddr": "2236007247",
+    "tags": [
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://www.wikipedia.org/",
+    "hashAddr": "1103662420",
+    "tags": [
+      "wiki"
+    ]
+  },
+  {
+    "addr": "http://www.rsdn.ru/forum/src/2259506.1.aspx",
+    "hashAddr": "3171053432",
+    "tags": [
+      "c++",
+      "array"
+    ]
+  },
+  {
+    "addr": "http://www.w3schools.com/js/js_obj_array.asp",
+    "hashAddr": "552656854",
+    "tags": [
+      "javascript",
+      "array"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=WCfR6nZ7qzA",
+    "hashAddr": "119120339",
+    "tags": [
+      "youtube",
+      "Trance",
+      "Superstar",
+      "ORIGINAL"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=COf0Av_in8M&feature=related",
+    "hashAddr": "2325531332",
+    "tags": [
+      "youtube",
+      "Trance",
+      "Just Love"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=Ool4gyrJpM0&feature=related",
+    "hashAddr": "1559964339",
+    "tags": [
+      "youtube",
+      "Trance",
+      "Flying High"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=5Cva3Jf-_DM&feature=related",
+    "hashAddr": "4207527565",
+    "tags": [
+      "youtube",
+      "Trance",
+      "Bad Boy"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=RGNGiVCbKOc&feature=related",
+    "hashAddr": "3113212593",
+    "tags": [
+      "youtube",
+      "Trance",
+      "Bad Boy",
+      "Club",
+      "Mix"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=t37ZTIXWjus&feature=related",
+    "hashAddr": "2514991228",
+    "tags": [
+      "youtube",
+      "Trance",
+      "Bad Boy",
+      "Pulsedriver",
+      "remix"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=E1mU6h4Xdxc",
+    "hashAddr": "355730241",
+    "tags": [
+      "youtube",
+      "Rihanna",
+      "Disturbia"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=booKP974B0k&feature=channel",
+    "hashAddr": "862430592",
+    "tags": [
+      "youtube",
+      "Shakira",
+      "She Wolf"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?feature=iv&v=dlEdFJpQ8-c&annotation_id=annotation_170139",
+    "hashAddr": "990324447",
+    "tags": [
+      "youtube",
+      "Rihanna",
+      "S&M",
+      "Lyrics"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=Tio51WbvtDY",
+    "hashAddr": "2512784320",
+    "tags": [
+      "youtube",
+      "Emilia de Poret",
+      "Pick Me Up"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=pyJ8IywDvxA",
+    "hashAddr": "3000314267",
+    "tags": [
+      "youtube",
+      "The Birthday Massacre",
+      "Happy Birthday",
+      "Lyrics"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=9WxlIqBM3wk",
+    "hashAddr": "1233402216",
+    "tags": [
+      "youtube",
+      "Pulsedriver",
+      "Galaxy"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=04ulaukDpiE",
+    "hashAddr": "3076464604",
+    "tags": [
+      "youtube",
+      "Trance",
+      "Beds are burning"
+    ]
+  },
+  {
+    "addr": "http://maps.google.com.ua/maps?hl=ru&tab=wl",
+    "hashAddr": "2257950720",
+    "tags": [
+      "google",
+      "maps"
+    ]
+  },
+  {
+    "addr": "http://images.google.com/imghp?hl=ru",
+    "hashAddr": "4261896152",
+    "tags": [
+      "google",
+      "images"
+    ]
+  },
+  {
+    "addr": "http://www.google.com/chrome?hl=ru&brand=CHMI",
+    "hashAddr": "1703891597",
+    "tags": [
+      "google",
+      "chrome",
+      "download"
+    ]
+  },
+  {
+    "addr": "http://en.wikipedia.org/wiki/Main_Page",
+    "hashAddr": "707337708",
+    "tags": [
+      "wiki",
+      "en"
+    ]
+  },
+  {
+    "addr": "http://de.wikipedia.org/wiki/Wikipedia:Hauptseite",
+    "hashAddr": "29662062",
+    "tags": [
+      "wiki",
+      "de"
+    ]
+  },
+  {
+    "addr": "http://it.wikipedia.org/wiki/Pagina_principale",
+    "hashAddr": "603670049",
+    "tags": [
+      "wiki",
+      "it"
+    ]
+  },
+  {
+    "addr": "http://pl.wikipedia.org/wiki/Strona_g%C5%82%C3%B3wna",
+    "hashAddr": "1766380656",
+    "tags": [
+      "wiki",
+      "pl"
+    ]
+  },
+  {
+    "addr": "http://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+    "hashAddr": "4140584211",
+    "tags": [
+      "wiki",
+      "ru"
+    ]
+  },
+  {
+    "addr": "http://en.wikipedia.org/wiki/JavaScript",
+    "hashAddr": "2096752508",
+    "tags": [
+      "wiki",
+      "en",
+      "javascript"
+    ]
+  },
+  {
+    "addr": "http://ru.wikipedia.org/wiki/JavaScript",
+    "hashAddr": "4107036794",
+    "tags": [
+      "wiki",
+      "ru",
+      "javascript"
+    ]
+  },
+  {
+    "addr": "http://mozilla-russia.org/",
+    "hashAddr": "3737991518",
+    "tags": [
+      "ru",
+      "mozilla",
+      "firefox",
+      "download"
+    ]
+  },
+  {
+    "addr": "http://www.apple.com/safari/download/",
+    "hashAddr": "3990455274",
+    "tags": [
+      "en",
+      "safary",
+      "download"
+    ]
+  },
+  {
+    "addr": "http://twitter.com/mozilla_russia",
+    "hashAddr": "1673934550",
+    "tags": [
+      "ru",
+      "mozilla",
+      "twitter"
+    ]
+  },
+  {
+    "addr": "http://twitter.com/",
+    "hashAddr": "4052153918",
+    "tags": [
+      "twitter"
+    ]
+  },
+  {
+    "addr": "http://kino-dom.tv/",
+    "hashAddr": "1452641284",
+    "tags": [
+      "series",
+      "online",
+      "kino-dom"
+    ]
+  },
+  {
+    "addr": "http://www.adultmult.ru/",
+    "hashAddr": "1348446750",
+    "tags": [
+      "adultmult",
+      "anime",
+      "online"
+    ]
+  },
+  {
+    "addr": "http://www.adultmult.ru/html/robot_chicken.html",
+    "hashAddr": "3747293679",
+    "tags": [
+      "adultmult",
+      "anime",
+      "online",
+      "Robot Chicken"
+    ]
+  },
+  {
+    "addr": "http://www.adultmult.ru/html/robot_chicken_1s.html",
+    "hashAddr": "1806827148",
+    "tags": [
+      "adultmult",
+      "anime",
+      "online",
+      "Robot Chicken",
+      "s01"
+    ]
+  },
+  {
+    "addr": "http://www.adultmult.ru/html/robot_chicken_2s.html",
+    "hashAddr": "1151140465",
+    "tags": [
+      "adultmult",
+      "anime",
+      "online",
+      "Robot Chicken",
+      "s02"
+    ]
+  },
+  {
+    "addr": "http://www.adultmult.ru/html/robot_chicken_3s.html",
+    "hashAddr": "3507693626",
+    "tags": [
+      "adultmult",
+      "anime",
+      "online",
+      "Robot Chicken",
+      "s03"
+    ]
+  },
+  {
+    "addr": "http://www.adultmult.ru/html/robot_chicken_4s.html",
+    "hashAddr": "1639814999",
+    "tags": [
+      "adultmult",
+      "anime",
+      "online",
+      "Robot Chicken",
+      "s04"
+    ]
+  },
+  {
+    "addr": "http://www.adultmult.ru/html/robot_chicken_5s.html",
+    "hashAddr": "3632356592",
+    "tags": [
+      "adultmult",
+      "anime",
+      "online",
+      "Robot Chicken",
+      "s05"
+    ]
+  },
+  {
+    "addr": "http://twitter.com/adultmult",
+    "hashAddr": "2511886712",
+    "tags": [
+      "adultmult",
+      "twitter"
+    ]
+  },
+  {
+    "addr": "https://addons.mozilla.org/ru/firefox/",
+    "hashAddr": "1877127016",
+    "tags": [
+      "ru",
+      "addons",
+      "firefox"
+    ]
+  },
+  {
+    "addr": "http://blog.twitter.com/",
+    "hashAddr": "968639594",
+    "tags": [
+      "twitter",
+      "blog"
+    ]
+  },
+  {
+    "addr": "http://www.yandex.ua/",
+    "hashAddr": "184450480",
+    "tags": [
+      "yandex",
+      "ua"
+    ]
+  },
+  {
+    "addr": "http://nigma.ru/",
+    "hashAddr": "3408235457",
+    "tags": [
+      "nigma",
+      "ru"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=N6O2ncUKvlg",
+    "hashAddr": "3617341027",
+    "tags": [
+      "youtube",
+      "Just A Dream"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=SkyfRu-dpvc",
+    "hashAddr": "3249273778",
+    "tags": [
+      "youtube",
+      "Just A Dream",
+      "Lyrics"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=vlesKtSGiLY&feature=rec-LGOUT-exp_fresh+div-1r-5-HM",
+    "hashAddr": "1378658449",
+    "tags": [
+      "youtube",
+      "Final Fantasy"
+    ]
+  },
+  {
+    "addr": "http://www.youtube.com/watch?v=5Cva3Jf-_DM&feature=related",
+    "hashAddr": "4207527565",
+    "tags": [
+      "youtube",
+      "Trance",
+      "Bad Boy"
+    ]
+  },
+  {
+    "addr": "http://ru.wikipedia.org/wiki/DDR3_SDRAM",
+    "hashAddr": "2802745248",
+    "tags": [
+      "wiki",
+      "ru",
+      "DDR3"
+    ]
+  },
+  {
+    "addr": "http://www.tigir.com/opacity.htm",
+    "hashAddr": "2574765875",
+    "tags": [
+      "opacity",
+      "javascript",
+      "CSS"
+    ]
+  },
+  {
+    "addr": "http://en.wikipedia.org/wiki/Shakira",
+    "hashAddr": "1673170686",
+    "tags": [
+      "wiki",
+      "Shakira",
+      "en"
+    ]
+  },
+  {
+    "addr": "http://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%BA%D0%B8%D1%80%D0%B0",
+    "hashAddr": "2867995230",
+    "tags": [
+      "wiki",
+      "Shakira",
+      "ru"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1422027456640.1900833409",
+    "hashAddr": 2725727034,
+    "tags": [
+      "google",
+      "keep",
+      "js",
+      "tricks"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#home",
+    "hashAddr": 1758954918,
+    "tags": [
+      "google",
+      "keep"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/208890/",
+    "hashAddr": 696597057,
+    "tags": [
+      "habr",
+      "gulp",
+      "js",
+      "208890"
+    ]
+  },
+  {
+    "addr": "https://github.com/",
+    "hashAddr": 3226016447,
+    "tags": [
+      "github"
+    ]
+  },
+  {
+    "addr": "https://github.com/dtestyk/js_utils",
+    "hashAddr": 1199061599,
+    "tags": [
+      "github",
+      "js",
+      "utils",
+      "repo"
+    ]
+  },
+  {
+    "addr": "http://dtestyk.github.io/js_utils/",
+    "hashAddr": 3683329985,
+    "tags": [
+      "github",
+      "js",
+      "utils",
+      "page"
+    ]
+  },
+  {
+    "addr": "https://github.com/dtestyk/dwitter",
+    "hashAddr": 1435419021,
+    "tags": [
+      "github",
+      "dwitter",
+      "repo"
+    ]
+  },
+  {
+    "addr": "http://dtestyk.github.io/dwitter/",
+    "hashAddr": 2956420637,
+    "tags": [
+      "github",
+      "dwitter",
+      "page"
+    ]
+  },
+  {
+    "addr": "https://github.com/dtestyk/style_custom",
+    "hashAddr": 3624784619,
+    "tags": [
+      "github",
+      "style",
+      "custom",
+      "repo"
+    ]
+  },
+  {
+    "addr": "http://dtestyk.github.io/style_custom/",
+    "hashAddr": 618905393,
+    "tags": [
+      "github",
+      "style",
+      "custom",
+      "page"
+    ]
+  },
+  {
+    "addr": "https://translate.google.com.ua/",
+    "hashAddr": 1769020195,
+    "tags": [
+      "google",
+      "translate"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=5Cva3Jf-_DM&feature=related",
+    "hashAddr": 893691650,
+    "tags": [
+      "youtube",
+      "trance",
+      "bad",
+      "boy"
+    ]
+  },
+  {
+    "addr": "https://toster.ru/questions/latest",
+    "hashAddr": 3267331186,
+    "tags": [
+      "habr",
+      "toster",
+      "news"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=t7w0K5Ey6iE",
+    "hashAddr": 1618682397,
+    "tags": [
+      "youtube",
+      "trance",
+      "beds",
+      "are",
+      "burning"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=t7w0K5Ey6iE",
+    "hashAddr": 1618682397,
+    "tags": [
+      "youtube",
+      "trance",
+      "beds",
+      "are",
+      "burning"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=d4_6N-k5VS4&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=17",
+    "hashAddr": 2579847388,
+    "tags": [
+      "youtube",
+      "kelly",
+      "clarkson",
+      "heart",
+      "beat"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=XpRhV_pOJT0&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=40",
+    "hashAddr": 327500405,
+    "tags": [
+      "youtube",
+      "nightcore",
+      "fortune",
+      "and",
+      "fate"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=9uo9oy-Eqo4&index=49&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 2401456102,
+    "tags": [
+      "youtube",
+      "gwen",
+      "stefani",
+      "baby",
+      "dont",
+      "lie"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=JPkYgpYQLK4&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=108",
+    "hashAddr": 726192832,
+    "tags": [
+      "youtube",
+      "selena",
+      "gomez",
+      "love",
+      "will",
+      "remember",
+      "music",
+      "video"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=UsZ-BHpMytM&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=126",
+    "hashAddr": 3703340126,
+    "tags": [
+      "youtube",
+      "alexandra",
+      "stan",
+      "lemonade",
+      "cahill",
+      "remix",
+      "video"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=a60fp_mkbeU&index=155&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 844680548,
+    "tags": [
+      "youtube",
+      "katy",
+      "perry",
+      "wide",
+      "awake",
+      "grunge",
+      "cover"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=L1t6MJaLp3U&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=160",
+    "hashAddr": 1266854625,
+    "tags": [
+      "lafee",
+      "heul",
+      "doch",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=75rLKK8V2yI&index=173&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 3236938042,
+    "tags": [
+      "sunlounger",
+      "zara",
+      "lost",
+      "radio",
+      "edit",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=7DH0OUGfglc&index=232&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 3685430276,
+    "tags": [
+      "amv",
+      "dansu",
+      "youtube",
+      "dream"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=G1pjTRmGPhs&index=276&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 1139621427,
+    "tags": [
+      "emily",
+      "osment",
+      "you",
+      "are",
+      "the",
+      "only",
+      "one",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=S8pObbOSS9g&index=278&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 1583863909,
+    "tags": [
+      "jojo",
+      "keep",
+      "forgetting",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=xix-A8WwU5k&index=282&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 2366917539,
+    "tags": [
+      "demi",
+      "lovato",
+      "never",
+      "been",
+      "hurt",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=cmb8_KsrNSQ&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=416",
+    "hashAddr": 1907498991,
+    "tags": [
+      "fefe",
+      "dobson",
+      "stuttering",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=ZQ_crwtc34k&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=415",
+    "hashAddr": 2030000412,
+    "tags": [
+      "fefe",
+      "dobson",
+      "legacy",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://geektimes.ru/",
+    "hashAddr": 3109955043,
+    "tags": [
+      "geektimes",
+      "habr"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=uJPGpf1LxhM&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=418",
+    "hashAddr": 3219405176,
+    "tags": [
+      "britney",
+      "spears",
+      "til",
+      "it",
+      "s",
+      "gone",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=tQ8xt5dIjlg&index=495&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 3921916045,
+    "tags": [
+      "alex",
+      "c",
+      "feat",
+      "lisa",
+      "rowe",
+      "feed",
+      "me",
+      "diamonds",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=vDqcqf1RFPk&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=522",
+    "hashAddr": 1541810819,
+    "tags": [
+      "amispoppia",
+      "fragile",
+      "love",
+      "youtube",
+      "dance"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=gCT3Li5dfZE&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=561",
+    "hashAddr": 1106527755,
+    "tags": [
+      "ellie",
+      "goulding",
+      "burn",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=CrgEl1u-wC8&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=562",
+    "hashAddr": 2858795072,
+    "tags": [
+      "avril",
+      "lavigne",
+      "rock",
+      "n",
+      "roll",
+      "lyric",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=XExPIKJCQ3M&index=563&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 859108494,
+    "tags": [
+      "avril",
+      "lavigne",
+      "darlin",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=Z8eXaXoUJRQ&index=573&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 3867318605,
+    "tags": [
+      "selena",
+      "gomez",
+      "slow",
+      "down",
+      "official",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=d-1hKc67JDI&index=576&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 984480379,
+    "tags": [
+      "ramon",
+      "zerano",
+      "marc",
+      "korn",
+      "sex",
+      "is",
+      "not",
+      "the",
+      "end",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=labutpA2qqA&index=578&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 2307357095,
+    "tags": [
+      "nicole",
+      "scherzinger",
+      "boomerang",
+      "lyrics",
+      "youtube",
+      "dubstop"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=ed-OIXmB7s4&index=585&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 3433985506,
+    "tags": [
+      "dan",
+      "winter",
+      "how",
+      "does",
+      "it",
+      "feel",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=QAvrXw3Yh0A&index=586&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 1724086118,
+    "tags": [
+      "bassrockerz",
+      "elena",
+      "surrender",
+      "dj",
+      "gollum",
+      "radio",
+      "mix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=ofWQE4SZrkQ&index=589&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 3400189180,
+    "tags": [
+      "dj",
+      "dejan",
+      "be",
+      "my",
+      "dream",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=Qt7xH1NNDZU&index=598&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 3777515345,
+    "tags": [
+      "drillheadz",
+      "feat",
+      "dani",
+      "b",
+      "i",
+      "want",
+      "you",
+      "faceman",
+      "feat",
+      "mike",
+      "remix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=cXWTFV8Z-i0&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=601",
+    "hashAddr": 2695221132,
+    "tags": [
+      "nightcore",
+      "love",
+      "the",
+      "way",
+      "you",
+      "lie",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=9UCbw1sXLs0&index=613&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 1728027376,
+    "tags": [
+      "alyssa",
+      "reid",
+      "alone",
+      "again",
+      "ft",
+      "p",
+      "reign",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=vhD9nrZdwyU&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=633",
+    "hashAddr": 3495199723,
+    "tags": [
+      "lemonade",
+      "mouth",
+      "music",
+      "video",
+      "breakthrough",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=14PBYVZYTzg&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=636",
+    "hashAddr": 1670506502,
+    "tags": [
+      "demi",
+      "lovato",
+      "give",
+      "your",
+      "heart",
+      "a",
+      "break",
+      "lyric",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=7auhCA_ODnY&index=639&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 1527477519,
+    "tags": [
+      "youtube",
+      "дискотека",
+      "авария",
+      "нано",
+      "техно"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=4FbPRHntLho&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=665",
+    "hashAddr": 1240163587,
+    "tags": [
+      "epileptic",
+      "techno",
+      "your",
+      "favorite",
+      "martian",
+      "music",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=iozuDMjjpvY&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=11",
+    "hashAddr": 2050951504,
+    "tags": [
+      "nightcore",
+      "breakthrough",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=j_uUSpy-oKI&index=24&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 2327149784,
+    "tags": [
+      "nightcore",
+      "tell",
+      "me",
+      "where",
+      "you",
+      "are",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=j_uUSpy-oKI&index=409&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 605701383,
+    "tags": [
+      "nightcore",
+      "tell",
+      "me",
+      "where",
+      "you",
+      "are",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=n9Sk-sBUAFo&index=26&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 1803342387,
+    "tags": [
+      "nightcore",
+      "i",
+      "touch",
+      "myself",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=EmBAwrO_dD4&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=65",
+    "hashAddr": 3762739842,
+    "tags": [
+      "nightcore",
+      "you",
+      "re",
+      "makin",
+      "me",
+      "high",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1414168534949.1821793609",
+    "hashAddr": 4216957421,
+    "tags": [
+      "google",
+      "keep",
+      "idea",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=zQmZrUFtKuo&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=68",
+    "hashAddr": 292610795,
+    "tags": [
+      "nightcore",
+      "every",
+      "day",
+      "i",
+      "see",
+      "you",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://adultmult.tv/as/bobs_burgers.html",
+    "hashAddr": 4103324017,
+    "tags": [
+      "bob",
+      "s",
+      "burgers",
+      "adult",
+      "mult"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=WrJaqs7kQKM&index=76&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 4037465427,
+    "tags": [
+      "nightcore",
+      "heart",
+      "attack",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=Brg2gir_4D0&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=77",
+    "hashAddr": 3606943199,
+    "tags": [
+      "nightcore",
+      "red",
+      "star",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=aCSZRUI-SWs&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=82",
+    "hashAddr": 183024322,
+    "tags": [
+      "nightcore",
+      "fantasy",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=_NymMUNe81o&index=112&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 2691144185,
+    "tags": [
+      "nightcore",
+      "insane",
+      "in",
+      "da",
+      "brain",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=Kx5I7qmFSAY&index=114&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 4050918154,
+    "tags": [
+      "nightcore",
+      "sober",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=rasDXuKqn18&index=125&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 53694671,
+    "tags": [
+      "nightcore",
+      "stuttering",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=VotHs9r5axI&index=126&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 1297384404,
+    "tags": [
+      "nightcore",
+      "field",
+      "of",
+      "dreams",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=XpRhV_pOJT0&index=133&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 836128466,
+    "tags": [
+      "nightcore",
+      "fortune",
+      "fate",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=QTHGe886Xxg&index=138&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 2948356729,
+    "tags": [
+      "nightcore",
+      "kim",
+      "leoni",
+      "around",
+      "around",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=J5pd1UvhTwU&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=139",
+    "hashAddr": 323799585,
+    "tags": [
+      "nightcore",
+      "i",
+      "ve",
+      "got",
+      "the",
+      "key",
+      "youtube",
+      "waves"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=0AOTK9v7OpY&index=144&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 1898125861,
+    "tags": [
+      "nightcore",
+      "come",
+      "into",
+      "my",
+      "dream",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=UsTaXfZhxSY&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=151",
+    "hashAddr": 2419688597,
+    "tags": [
+      "nightcore",
+      "you",
+      "can",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=q-9wCneWlt0&index=175&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 4225939911,
+    "tags": [
+      "age",
+      "pee",
+      "when",
+      "the",
+      "rain",
+      "begins",
+      "to",
+      "fall",
+      "alex",
+      "konrad",
+      "remix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=Wwz97VC3Qww&index=225&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 704607071,
+    "tags": [
+      "nightcore",
+      "i",
+      "want",
+      "you",
+      "to",
+      "hold",
+      "me",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=B29kcddTu4Q&index=180&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 330202995,
+    "tags": [
+      "nightcore",
+      "runnin",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=XfqmA7ZDRaM&index=184&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 2208990064,
+    "tags": [
+      "nightcore",
+      "digital",
+      "world",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=EfXIrzAlOT4&index=187&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 4032272273,
+    "tags": [
+      "nightcore",
+      "you",
+      "youtube",
+      "gareth",
+      "emery",
+      "feat",
+      "bo",
+      "bruce"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=eCdkg4Ul1gM&index=190&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 3796614909,
+    "tags": [
+      "nightcore",
+      "never",
+      "close",
+      "your",
+      "eyes",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=wk2Z8axFq9w&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=191",
+    "hashAddr": 3544651970,
+    "tags": [
+      "michael",
+      "newton",
+      "wow",
+      "hey",
+      "hey",
+      "nightcore",
+      "remix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=6anAnYjUcSk&index=201&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 3910438323,
+    "tags": [
+      "peat",
+      "jr",
+      "fernando",
+      "szerelem",
+      "sz",
+      "ll",
+      "nightcore",
+      "mix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=uGahKubjom8&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=203",
+    "hashAddr": 4161750837,
+    "tags": [
+      "nightcore",
+      "tell",
+      "me",
+      "where",
+      "you",
+      "are",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=czFx2MBbwBY&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=206",
+    "hashAddr": 3033412867,
+    "tags": [
+      "nightcore",
+      "burn",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=pa3c1Cs-qug&index=208&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 1893807627,
+    "tags": [
+      "nightcore",
+      "kill",
+      "for",
+      "love",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=WnY0l0lQJ3M&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=209",
+    "hashAddr": 70730423,
+    "tags": [
+      "nightcore",
+      "go",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=9VTsds5r5_4&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=212",
+    "hashAddr": 1693038052,
+    "tags": [
+      "trance",
+      "superstar",
+      "original",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=MnQTRg1LEJ8&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&index=223",
+    "hashAddr": 3914208089,
+    "tags": [
+      "nightcore",
+      "rm",
+      "winter",
+      "night",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=UUc4C3E6y34&index=224&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx",
+    "hashAddr": 220608497,
+    "tags": [
+      "nightcore",
+      "tell",
+      "me",
+      "why",
+      "i",
+      "m",
+      "crying",
+      "out",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=9en2LtsQFzg",
+    "hashAddr": 2732648106,
+    "tags": [
+      "nightcore",
+      "lost",
+      "in",
+      "the",
+      "discotheque",
+      "youtube",
+      "waves"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=6jiKcXL91xU",
+    "hashAddr": 764178205,
+    "tags": [
+      "djane",
+      "housekat",
+      "feat",
+      "rameez",
+      "all",
+      "the",
+      "time",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/feed/",
+    "hashAddr": 3193139641,
+    "tags": [
+      "habr"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=0EzCd2cW3rM&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=4",
+    "hashAddr": 3791944053,
+    "tags": [
+      "alexandra",
+      "stan",
+      "thanks",
+      "for",
+      "leaving",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=0EzCd2cW3rM&index=4&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 2966941829,
+    "tags": [
+      "alexandra",
+      "stan",
+      "thanks",
+      "for",
+      "leaving",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1391765503144.1915283415",
+    "hashAddr": 2389191158,
+    "tags": [
+      "google",
+      "keep",
+      "math",
+      "links"
+    ]
+  },
+  {
+    "addr": "https://toster.ru/",
+    "hashAddr": 4046156923,
+    "tags": [
+      "habr",
+      "toster"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/",
+    "hashAddr": 4083526518,
+    "tags": [
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/",
+    "hashAddr": 3592861776,
+    "tags": [
+      "habr"
+    ]
+  },
+  {
+    "addr": "https://toster.ru/?utm_source=tm_geektimes&utm_medium=tm_top_panel&utm_campaign=tm_promo",
+    "hashAddr": 4135748031,
+    "tags": [
+      "habr",
+      "toster"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/252143/",
+    "hashAddr": 3335932147,
+    "tags": [
+      "programming",
+      "audio",
+      "pure",
+      "data",
+      "habr",
+      "part",
+      "1"
+    ]
+  },
+  {
+    "addr": "http://seasonvar.ru/serial-10984-Nizhnij_etazh-2-season.html",
+    "hashAddr": 3353023000,
+    "tags": [
+      "seasonvar",
+      "ground",
+      "floor",
+      "season",
+      "2"
+    ]
+  },
+  {
+    "addr": "http://seasonvar.ru/",
+    "hashAddr": 582055595,
+    "tags": [
+      "seasonvar"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=G6AoZRX70VY&index=109&list=PLD95E27839E2DAE17",
+    "hashAddr": 3863714451,
+    "tags": [
+      "mike",
+      "wind",
+      "marc",
+      "korn",
+      "on",
+      "my",
+      "way",
+      "luca",
+      "zeta",
+      "remix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=-SbVAmo9hI4",
+    "hashAddr": 2479641726,
+    "tags": [
+      "dj",
+      "ramon",
+      "zerano",
+      "marc",
+      "korn",
+      "tears",
+      "in",
+      "my",
+      "eyes",
+      "ziggy",
+      "x",
+      "remix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://javascript.ru/RegExp",
+    "hashAddr": 706946377,
+    "tags": [
+      "js",
+      "regexp",
+      "programming"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=5&list=PLYIEQQkP4leNv7pgDMFCCzDJ5ChxSa7mv&v=0EzCd2cW3rM",
+    "hashAddr": 4246567012,
+    "tags": [
+      "alexandra",
+      "stan",
+      "thanks",
+      "for",
+      "leaving",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=275&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=0n99J-8a_Fs",
+    "hashAddr": 3723767495,
+    "tags": [
+      "hold",
+      "up",
+      "demi",
+      "lovato",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://seasonvar.ru/serial-10504-Avatar_Legenda_o_Korre-4-season.html",
+    "hashAddr": 1051666427,
+    "tags": [
+      "seasonvar",
+      "airbender",
+      "the",
+      "legend",
+      "of",
+      "korra",
+      "4",
+      "season"
+    ]
+  },
+  {
+    "addr": "http://seasonvar.ru/serial-10728-Sejnfeld-8-season.html",
+    "hashAddr": 4271936204,
+    "tags": [
+      "seasonvar",
+      "seinfeld",
+      "8",
+      "season"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/250321/",
+    "hashAddr": 2268629355,
+    "tags": [
+      "habr",
+      "audio",
+      "programming",
+      "pure",
+      "data",
+      "part",
+      "0"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=376&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=ItWF82CRD-4",
+    "hashAddr": 888149993,
+    "tags": [
+      "scooter",
+      "4",
+      "am",
+      "radio",
+      "edit",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=409&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=j_uUSpy-oKI",
+    "hashAddr": 3947754999,
+    "tags": [
+      "nightcore",
+      "tell",
+      "me",
+      "where",
+      "you",
+      "are",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=415&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=ZQ_crwtc34k",
+    "hashAddr": 3559543688,
+    "tags": [
+      "fefe",
+      "dobson",
+      "legacy",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=416&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=cmb8_KsrNSQ",
+    "hashAddr": 3247796803,
+    "tags": [
+      "fefe",
+      "dobson",
+      "stuttering",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=418&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=uJPGpf1LxhM",
+    "hashAddr": 3444755708,
+    "tags": [
+      "britney",
+      "spears",
+      "til",
+      "it",
+      "s",
+      "gone",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=223&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=MnQTRg1LEJ8",
+    "hashAddr": 799834949,
+    "tags": [
+      "nightcore",
+      "rm",
+      "winter",
+      "night",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=184&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=XfqmA7ZDRaM",
+    "hashAddr": 1095876976,
+    "tags": [
+      "nightcore",
+      "digital",
+      "world",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=82&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=aCSZRUI-SWs",
+    "hashAddr": 2594497232,
+    "tags": [
+      "nightcore",
+      "fantasy",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=109&list=PLD95E27839E2DAE17&v=G6AoZRX70VY",
+    "hashAddr": 3725164207,
+    "tags": [
+      "mike",
+      "wind",
+      "marc",
+      "korn",
+      "on",
+      "my",
+      "way",
+      "luca",
+      "zeta",
+      "remix",
+      "youtube",
+      "beats"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=134&list=PLD95E27839E2DAE17&v=ZREt8h6ziko",
+    "hashAddr": 2408567232,
+    "tags": [
+      "if",
+      "i",
+      "were",
+      "you",
+      "seb",
+      "narcotic",
+      "remix",
+      "candee",
+      "jay",
+      "youtube",
+      "beats"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=-5oXfhjyTeo",
+    "hashAddr": 504771383,
+    "tags": [
+      "the",
+      "veronicas",
+      "faded",
+      "lyrics",
+      "youtube",
+      "someone",
+      "else"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=iHDxn2OXCzA",
+    "hashAddr": 553048115,
+    "tags": [
+      "cascada",
+      "faded",
+      "radio",
+      "mix",
+      "youtube",
+      "someone",
+      "else"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=cQOOf7tWNks",
+    "hashAddr": 1515746353,
+    "tags": [
+      "leave",
+      "me",
+      "alone",
+      "the",
+      "veronicas",
+      "with",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://xhamster.com/movies/4111004/wet_hairy_teen_bates_and_cums_hard.html",
+    "hashAddr": 2565519586,
+    "tags": [
+      "wet",
+      "hairy",
+      "teen",
+      "bates",
+      "and",
+      "cums",
+      "hard",
+      "xhamster",
+      "porn"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=218&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=QzagygmJIPE",
+    "hashAddr": 914911322,
+    "tags": [
+      "nightcore",
+      "fuck",
+      "off",
+      "graz",
+      "youtube",
+      "beats"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=212&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=9VTsds5r5_4",
+    "hashAddr": 147082828,
+    "tags": [
+      "trance",
+      "superstar",
+      "original",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/",
+    "hashAddr": 2404012028,
+    "tags": [
+      "google",
+      "keep"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1385198970203.1608267793",
+    "hashAddr": 437862557,
+    "tags": [
+      "google",
+      "keep",
+      "online",
+      "tools"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1385295167924.714700983",
+    "hashAddr": 2587344549,
+    "tags": [
+      "google",
+      "keep",
+      "accs"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=2E_e1AmMj9U",
+    "hashAddr": 501783662,
+    "tags": [
+      "nightcore",
+      "jump",
+      "jump",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%B3%D1%80%D0%B8%D1%80%D1%83%D1%8E%D1%89%D0%B8%D0%B9_%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81",
+    "hashAddr": 3908158906,
+    "tags": [
+      "мигрирующий",
+      "моторный",
+      "комплекс",
+      "wiki",
+      "demon"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=fcgSUG5wWFs",
+    "hashAddr": 159505560,
+    "tags": [
+      "nightcore",
+      "jcore",
+      "future",
+      "handsup",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=248&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=FOZQuOg-Fho",
+    "hashAddr": 706258354,
+    "tags": [
+      "nightcore",
+      "lets",
+      "go",
+      "disco",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=l5qkgBNDJOg",
+    "hashAddr": 1210712369,
+    "tags": [
+      "master",
+      "blaster",
+      "come",
+      "clean",
+      "megastylez",
+      "remix",
+      "youtube",
+      "beat"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/all/",
+    "hashAddr": 3901484260,
+    "tags": [
+      "habr"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=EVXYZGu75qk",
+    "hashAddr": 3936230983,
+    "tags": [
+      "eric",
+      "prydz",
+      "every",
+      "day",
+      "youtube",
+      "progressive",
+      "beat"
+    ]
+  },
+  {
+    "addr": "https://github.com/DanielRapp/doppler",
+    "hashAddr": 2875149462,
+    "tags": [
+      "github",
+      "doppler",
+      "audio",
+      "ergonomic",
+      "html5"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/253227/",
+    "hashAddr": 1399211733,
+    "tags": [
+      "deep",
+      "learning",
+      "ai",
+      "habr",
+      "word",
+      "shared",
+      "embeddings",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/249215/#first_unread",
+    "hashAddr": 3824361722,
+    "tags": [
+      "habr",
+      "lang",
+      "ai",
+      "word",
+      "vector",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "http://radimrehurek.com/2014/02/word2vec-tutorial/#app",
+    "hashAddr": 2997812549,
+    "tags": [
+      "text",
+      "processing",
+      "word",
+      "analogy",
+      "similar"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/253227/#first_unread",
+    "hashAddr": 2744872722,
+    "tags": [
+      "deep",
+      "learning",
+      "ai",
+      "habr",
+      "word",
+      "shared",
+      "embeddings",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=236&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=XEx_zzMOmak",
+    "hashAddr": 1193517179,
+    "tags": [
+      "nightcore",
+      "another",
+      "way",
+      "youtube"
+    ]
+  }
+]

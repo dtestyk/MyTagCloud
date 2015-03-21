@@ -43,7 +43,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 })
 
 function on_tab_update_sess_info(port, tabId, changeInfo, tab) {
-  if(changeInfo.status == 'complete'){
+  if(changeInfo.status == 'complete' && port.sender.tab.id == tab.id){
   //error port disconnected
     try{
       port.postMessage({session: sessionStates[tab.id]});

@@ -376,7 +376,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 		{
       var url_norm = sort_params(curr_url)
 			for(var i=0; i<get_garr_selected_only.length; i++) {
-        var related = garrSelected[i]
+        var related = garr_selected_only[i]
         var tags_related = related.tags
         var is_now = related.addr == url_norm
         if(is_now) return i

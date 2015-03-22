@@ -1,8 +1,7 @@
 default setup is show(checkbox),
 but on tab open hidden
 
-no get tags from url
-navigation not by tags
+show tag cloud too slow
 
 get tags by url on page side
 not because plan to request from other nodes

@@ -19,7 +19,8 @@
 const DOWNLOAD_KEY_CODE = 77
 const PREV_SELECTED_PAGE_KEY_CODE = 38
 const NEXT_SELECTED_PAGE_KEY_CODE = 40
-const N_TAGS_CLOUD_MAX = 100
+const N_RECENT_TAGS_CLOUD_MAX = 20
+const N_COMMON_TAGS_CLOUD_MAX = 100
 
 //
 //global vars
@@ -719,32 +720,37 @@ const N_TAGS_CLOUD_MAX = 100
 			return true;
 		}
 		
-		function ShowCloud(arrTag)
+		function ShowCloud(arr_tags)
 		{
-			var arrTagSortByN = arrTag.slice();
-			arrTagSortByN
+      var n_tags = arr_tags.length
+			var arr_tags_sorted_by_n = arr_tags
+      .slice()
       .sort(function(a,b){
 				return (a.n - b.n);
-			})
-      .splice(0, Math.max(0, arrTag.length-N_TAGS_CLOUD_MAX))
+			});
+      // .splice(0, Math.max(0, arrTag.length-N_COMMON_TAGS_CLOUD_MAX))
 			
-      for(var i=0; i<arrTag.length; i++) arrTag[i].bShow = false
-			for(var j=i=0,n=arrTagSortByN.length; i<n; i++){
-				if( (i>0) && (arrTagSortByN[i-1].n != arrTagSortByN[i].n) )j=i;
-				// изменяется массив arrTagSortByN, изменения отражаются на arrTag
-				arrTagSortByN[i].iSize = j/n;
-        arrTagSortByN[i].bShow = true
+      for(var i=0,a=arr_tags,n=a.length; i<n; i++) a[i].is_recent = i<N_RECENT_TAGS_CLOUD_MAX
+      for(var i=0,a=arr_tags_sorted_by_n,n=a.length; i<n; i++) a[i].is_common = i>=n_tags-N_COMMON_TAGS_CLOUD_MAX
+      for(var i=0,a=arr_tags,n=a.length; i<n; i++) a[i].must_show = a[i].is_recent || a[i].is_common
+      
+      var arr_shown_tags = arr_tags.filter(function(tag){return tag.must_show})
+      var arr_shown_tags_sorted_by_n = arr_tags_sorted_by_n.filter(function(tag){return tag.must_show})
+      
+			for(var j=i=0,a=arr_shown_tags_sorted_by_n,n=a.length; i<n; i++){
+				if( (i>0) && (a[i-1].n != a[i].n) )j=i
+				//изменения отражаются на arr_shown_tags
+				a[i].iSize = j/n
 			}
 			
 			UI.odvTagCloud.innerHTML="";
 			var oBr = null;
-			for(var i=0; i<arrTag.length; i++) {
-				if( typeof(arrTag[i]) != "function" ){
+			for(var i=0; i<arr_shown_tags.length; i++) {
+				if( typeof(arr_shown_tags[i]) != "function" ){
 					var o = UI.doc.createElement("a");
-          var tag = arrTag[i]
-					if(!tag.bShow) continue
+          var tag = arr_shown_tags[i]
           o.style.fontSize=(100+Math.floor(tag.iSize*61.8)).toString()+"%";
-          //o.style.fontSize=Math.floor(12+12*arrTag[i].iSize)+'px'
+          //o.style.fontSize=Math.floor(12+12*arr_shown_tags[i].iSize)+'px'
 					//o.style.color="#0000ff";
 					setText(UI, o, tag.tag);
 					addHandler(o,'click',tagSelectClick);

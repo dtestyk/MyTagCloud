@@ -28,6 +28,7 @@ if(is_ok){
 no spaces, no line break before open curve bracket
 var a = 0
 no semicolon, if possible
+except chain call
 use semicolon in bookmarklet
 
 

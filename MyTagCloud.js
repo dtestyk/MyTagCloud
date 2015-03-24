@@ -751,7 +751,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
           var tag = arr_shown_tags[i]
           o.style.fontSize=(100+Math.floor(tag.iSize*61.8)).toString()+"%";
           //o.style.fontSize=Math.floor(12+12*arr_shown_tags[i].iSize)+'px'
-					//o.style.color="#0000ff";
+					if(tag.is_recent) o.style.color="#008800";
 					setText(UI, o, tag.tag);
 					addHandler(o,'click',tagSelectClick);
 					o.href="javascript:void(0);";

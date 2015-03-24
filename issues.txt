@@ -1,7 +1,8 @@
 default setup is show(checkbox),
 but on tab open hidden
 
-show tag cloud too slow
+show tag cloud too slow: youtube 10s
+not related with last changes show cloud bound show
 
 get tags by url on page side
 not because plan to request from other nodes

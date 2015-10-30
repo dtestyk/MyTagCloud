@@ -6,3 +6,6 @@ tag<br>
 <li>navigator</li>
 <li>searcher</li>
 <li>recommendation system</li>
+</ul>
+
+press ctrl+m to export tags data

@@ -599,22 +599,6 @@
     ]
   },
   {
-    "addr": "https://toster.ru/",
-    "hashAddr": 4046156923,
-    "tags": [
-      "habr",
-      "toster"
-    ]
-  },
-  {
-    "addr": "https://toster.ru/?utm_source=tm_geektimes&utm_medium=tm_top_panel&utm_campaign=tm_promo",
-    "hashAddr": 4135748031,
-    "tags": [
-      "habr",
-      "toster"
-    ]
-  },
-  {
     "addr": "https://www.youtube.com/watch?v=5Cva3Jf-_DM&feature=related",
     "hashAddr": 893691650,
     "tags": [
@@ -1484,6 +1468,1189 @@
       "crying",
       "out",
       "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=9en2LtsQFzg",
+    "hashAddr": 2732648106,
+    "tags": [
+      "nightcore",
+      "lost",
+      "in",
+      "the",
+      "discotheque",
+      "youtube",
+      "waves"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=6jiKcXL91xU",
+    "hashAddr": 764178205,
+    "tags": [
+      "djane",
+      "housekat",
+      "feat",
+      "rameez",
+      "all",
+      "the",
+      "time",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/feed/",
+    "hashAddr": 3193139641,
+    "tags": [
+      "habr"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=0EzCd2cW3rM&list=FLQ70yTamaN3EZ6dRzt-2u7w&index=4",
+    "hashAddr": 3791944053,
+    "tags": [
+      "alexandra",
+      "stan",
+      "thanks",
+      "for",
+      "leaving",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=0EzCd2cW3rM&index=4&list=FLQ70yTamaN3EZ6dRzt-2u7w",
+    "hashAddr": 2966941829,
+    "tags": [
+      "alexandra",
+      "stan",
+      "thanks",
+      "for",
+      "leaving",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1391765503144.1915283415",
+    "hashAddr": 2389191158,
+    "tags": [
+      "google",
+      "keep",
+      "math",
+      "links"
+    ]
+  },
+  {
+    "addr": "https://toster.ru/",
+    "hashAddr": 4046156923,
+    "tags": [
+      "habr",
+      "toster"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/",
+    "hashAddr": 4083526518,
+    "tags": [
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/",
+    "hashAddr": 3592861776,
+    "tags": [
+      "habr"
+    ]
+  },
+  {
+    "addr": "https://toster.ru/?utm_source=tm_geektimes&utm_medium=tm_top_panel&utm_campaign=tm_promo",
+    "hashAddr": 4135748031,
+    "tags": [
+      "habr",
+      "toster"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/252143/",
+    "hashAddr": 3335932147,
+    "tags": [
+      "programming",
+      "audio",
+      "pure",
+      "data",
+      "habr",
+      "part",
+      "1"
+    ]
+  },
+  {
+    "addr": "http://seasonvar.ru/serial-10984-Nizhnij_etazh-2-season.html",
+    "hashAddr": 3353023000,
+    "tags": [
+      "seasonvar",
+      "ground",
+      "floor",
+      "season",
+      "2"
+    ]
+  },
+  {
+    "addr": "http://seasonvar.ru/",
+    "hashAddr": 582055595,
+    "tags": [
+      "seasonvar"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=G6AoZRX70VY&index=109&list=PLD95E27839E2DAE17",
+    "hashAddr": 3863714451,
+    "tags": [
+      "mike",
+      "wind",
+      "marc",
+      "korn",
+      "on",
+      "my",
+      "way",
+      "luca",
+      "zeta",
+      "remix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=-SbVAmo9hI4",
+    "hashAddr": 2479641726,
+    "tags": [
+      "dj",
+      "ramon",
+      "zerano",
+      "marc",
+      "korn",
+      "tears",
+      "in",
+      "my",
+      "eyes",
+      "ziggy",
+      "x",
+      "remix",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://javascript.ru/RegExp",
+    "hashAddr": 706946377,
+    "tags": [
+      "js",
+      "regexp",
+      "programming"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=5&list=PLYIEQQkP4leNv7pgDMFCCzDJ5ChxSa7mv&v=0EzCd2cW3rM",
+    "hashAddr": 4246567012,
+    "tags": [
+      "alexandra",
+      "stan",
+      "thanks",
+      "for",
+      "leaving",
+      "official",
+      "video",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=275&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=0n99J-8a_Fs",
+    "hashAddr": 3723767495,
+    "tags": [
+      "hold",
+      "up",
+      "demi",
+      "lovato",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://seasonvar.ru/serial-10504-Avatar_Legenda_o_Korre-4-season.html",
+    "hashAddr": 1051666427,
+    "tags": [
+      "seasonvar",
+      "airbender",
+      "the",
+      "legend",
+      "of",
+      "korra",
+      "4",
+      "season"
+    ]
+  },
+  {
+    "addr": "http://seasonvar.ru/serial-10728-Sejnfeld-8-season.html",
+    "hashAddr": 4271936204,
+    "tags": [
+      "seasonvar",
+      "seinfeld",
+      "8",
+      "season"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/250321/",
+    "hashAddr": 2268629355,
+    "tags": [
+      "habr",
+      "audio",
+      "programming",
+      "pure",
+      "data",
+      "part",
+      "0"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=376&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=ItWF82CRD-4",
+    "hashAddr": 888149993,
+    "tags": [
+      "scooter",
+      "4",
+      "am",
+      "radio",
+      "edit",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=409&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=j_uUSpy-oKI",
+    "hashAddr": 3947754999,
+    "tags": [
+      "nightcore",
+      "tell",
+      "me",
+      "where",
+      "you",
+      "are",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=415&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=ZQ_crwtc34k",
+    "hashAddr": 3559543688,
+    "tags": [
+      "fefe",
+      "dobson",
+      "legacy",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=416&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=cmb8_KsrNSQ",
+    "hashAddr": 3247796803,
+    "tags": [
+      "fefe",
+      "dobson",
+      "stuttering",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=418&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=uJPGpf1LxhM",
+    "hashAddr": 3444755708,
+    "tags": [
+      "britney",
+      "spears",
+      "til",
+      "it",
+      "s",
+      "gone",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=223&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=MnQTRg1LEJ8",
+    "hashAddr": 799834949,
+    "tags": [
+      "nightcore",
+      "rm",
+      "winter",
+      "night",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=184&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=XfqmA7ZDRaM",
+    "hashAddr": 1095876976,
+    "tags": [
+      "nightcore",
+      "digital",
+      "world",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=82&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=aCSZRUI-SWs",
+    "hashAddr": 2594497232,
+    "tags": [
+      "nightcore",
+      "fantasy",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=109&list=PLD95E27839E2DAE17&v=G6AoZRX70VY",
+    "hashAddr": 3725164207,
+    "tags": [
+      "mike",
+      "wind",
+      "marc",
+      "korn",
+      "on",
+      "my",
+      "way",
+      "luca",
+      "zeta",
+      "remix",
+      "youtube",
+      "beats"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=134&list=PLD95E27839E2DAE17&v=ZREt8h6ziko",
+    "hashAddr": 2408567232,
+    "tags": [
+      "if",
+      "i",
+      "were",
+      "you",
+      "seb",
+      "narcotic",
+      "remix",
+      "candee",
+      "jay",
+      "youtube",
+      "beats"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=-5oXfhjyTeo",
+    "hashAddr": 504771383,
+    "tags": [
+      "the",
+      "veronicas",
+      "faded",
+      "lyrics",
+      "youtube",
+      "someone",
+      "else"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=iHDxn2OXCzA",
+    "hashAddr": 553048115,
+    "tags": [
+      "cascada",
+      "faded",
+      "radio",
+      "mix",
+      "youtube",
+      "someone",
+      "else"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=cQOOf7tWNks",
+    "hashAddr": 1515746353,
+    "tags": [
+      "leave",
+      "me",
+      "alone",
+      "the",
+      "veronicas",
+      "with",
+      "lyrics",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://xhamster.com/movies/4111004/wet_hairy_teen_bates_and_cums_hard.html",
+    "hashAddr": 2565519586,
+    "tags": [
+      "wet",
+      "hairy",
+      "teen",
+      "bates",
+      "and",
+      "cums",
+      "hard",
+      "xhamster",
+      "porn"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=218&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=QzagygmJIPE",
+    "hashAddr": 914911322,
+    "tags": [
+      "nightcore",
+      "fuck",
+      "off",
+      "graz",
+      "youtube",
+      "beats"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=212&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=9VTsds5r5_4",
+    "hashAddr": 147082828,
+    "tags": [
+      "trance",
+      "superstar",
+      "original",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/",
+    "hashAddr": 2404012028,
+    "tags": [
+      "google",
+      "keep"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1385198970203.1608267793",
+    "hashAddr": 437862557,
+    "tags": [
+      "google",
+      "keep",
+      "online",
+      "tools"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1385295167924.714700983",
+    "hashAddr": 2587344549,
+    "tags": [
+      "google",
+      "keep",
+      "accs"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=2E_e1AmMj9U",
+    "hashAddr": 501783662,
+    "tags": [
+      "nightcore",
+      "jump",
+      "jump",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%B3%D1%80%D0%B8%D1%80%D1%83%D1%8E%D1%89%D0%B8%D0%B9_%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81",
+    "hashAddr": 3908158906,
+    "tags": [
+      "мигрирующий",
+      "моторный",
+      "комплекс",
+      "wiki",
+      "demon"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=fcgSUG5wWFs",
+    "hashAddr": 159505560,
+    "tags": [
+      "nightcore",
+      "jcore",
+      "future",
+      "handsup",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=248&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=FOZQuOg-Fho",
+    "hashAddr": 706258354,
+    "tags": [
+      "nightcore",
+      "lets",
+      "go",
+      "disco",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=l5qkgBNDJOg",
+    "hashAddr": 1210712369,
+    "tags": [
+      "master",
+      "blaster",
+      "come",
+      "clean",
+      "megastylez",
+      "remix",
+      "youtube",
+      "beat"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/all/",
+    "hashAddr": 3901484260,
+    "tags": [
+      "habr"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=EVXYZGu75qk",
+    "hashAddr": 3936230983,
+    "tags": [
+      "eric",
+      "prydz",
+      "every",
+      "day",
+      "youtube",
+      "progressive",
+      "beat"
+    ]
+  },
+  {
+    "addr": "https://github.com/DanielRapp/doppler",
+    "hashAddr": 2875149462,
+    "tags": [
+      "github",
+      "doppler",
+      "audio",
+      "ergonomic",
+      "html5"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/253227/",
+    "hashAddr": 1399211733,
+    "tags": [
+      "deep",
+      "learning",
+      "ai",
+      "habr",
+      "word",
+      "shared",
+      "embeddings",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/249215/#first_unread",
+    "hashAddr": 3824361722,
+    "tags": [
+      "habr",
+      "lang",
+      "ai",
+      "word",
+      "vector",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "http://radimrehurek.com/2014/02/word2vec-tutorial/#app",
+    "hashAddr": 2997812549,
+    "tags": [
+      "text",
+      "processing",
+      "word",
+      "analogy",
+      "similar"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/253227/#first_unread",
+    "hashAddr": 2744872722,
+    "tags": [
+      "deep",
+      "learning",
+      "ai",
+      "habr",
+      "word",
+      "shared",
+      "embeddings",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=236&list=PLYIEQQkP4leO8pmwej8aGF8L-UcgyvgUx&v=XEx_zzMOmak",
+    "hashAddr": 1193517179,
+    "tags": [
+      "nightcore",
+      "another",
+      "way",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.livecoding.tv/dchem/",
+    "hashAddr": 487537122,
+    "tags": [
+      "livecoding",
+      "js",
+      "c++",
+      "trading",
+      "tdd",
+      "mocha",
+      "online",
+      "stream"
+    ]
+  },
+  {
+    "addr": "http://asbook.net/abooks/biografy/29-karlos-kastaneda-vtoroe-kolco-sily-audiokniga.html",
+    "hashAddr": 2586964478,
+    "tags": [
+      "castaneda",
+      "audio",
+      "book",
+      "online",
+      "vtoroe",
+      "kolco",
+      "sily"
+    ]
+  },
+  {
+    "addr": "https://github.com/WebAudio/web-audio-api/issues/468",
+    "hashAddr": 3658125472,
+    "tags": [
+      "js",
+      "audio",
+      "processing",
+      "github",
+      "audioworker"
+    ]
+  },
+  {
+    "addr": "http://webaudio.github.io/web-audio-api/index.html",
+    "hashAddr": 2931838825,
+    "tags": [
+      "js",
+      "audio",
+      "processing",
+      "github",
+      "web",
+      "audio",
+      "api"
+    ]
+  },
+  {
+    "addr": "http://www.arc.id.au/UWAcoustics.html",
+    "hashAddr": 453449633,
+    "tags": [
+      "underwater",
+      "accoustic",
+      "sound",
+      "speed",
+      "waves",
+      "propagation"
+    ]
+  },
+  {
+    "addr": "http://www.arc.id.au/SonarRayTracing.html",
+    "hashAddr": 3527822234,
+    "tags": [
+      "underwater",
+      "accoustic",
+      "sound",
+      "ray",
+      "tracing"
+    ]
+  },
+  {
+    "addr": "http://www.arc.id.au/FilterDesign.html",
+    "hashAddr": 1016752133,
+    "tags": [
+      "signal",
+      "audio",
+      "processing",
+      "fir",
+      "filter",
+      "desing"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Pitch_detection_algorithm",
+    "hashAddr": 1169113290,
+    "tags": [
+      "wiki",
+      "en",
+      "signal",
+      "audio",
+      "processing",
+      "pitch",
+      "detection",
+      "algo"
+    ]
+  },
+  {
+    "addr": "http://geektimes.ru/post/264794/",
+    "hashAddr": 2656792723,
+    "tags": [
+      "geektimes",
+      "habr",
+      "ethic",
+      "philosophy",
+      "robocar"
+    ]
+  },
+  {
+    "addr": "http://ithappens.me/",
+    "hashAddr": 2617332350,
+    "tags": [
+      "programming",
+      "short",
+      "story",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0",
+    "hashAddr": 3261304928,
+    "tags": [
+      "wiki",
+      "ru",
+      "web",
+      "psycho",
+      "term",
+      "Information",
+      "overload"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Information_overload",
+    "hashAddr": 3682451415,
+    "tags": [
+      "wiki",
+      "en",
+      "web",
+      "psycho",
+      "Information",
+      "overload"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D0%B7%D1%8B%D1%80%D1%8C_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2",
+    "hashAddr": 2425598379,
+    "tags": [
+      "wiki",
+      "ru",
+      "psycho",
+      "web",
+      "term",
+      "filter",
+      "bubble"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Fear_of_missing_out",
+    "hashAddr": 3193591356,
+    "tags": [
+      "wiki",
+      "web",
+      "psycho",
+      "infrormational",
+      "en",
+      "fear",
+      "of",
+      "missing",
+      "out"
+    ]
+  },
+  {
+    "addr": "http://pikabu.ru/story/otlichitelnyie_chertyi_filmov_tarantino_2114957",
+    "hashAddr": 2454493675,
+    "tags": [
+      "kino",
+      "tarantino",
+      "feature",
+      "plural",
+      "picabu"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%B2%D0%B0%D0%B3%D0%BE%D0%BD%D0%B5%D1%82%D0%BA%D0%B8",
+    "hashAddr": 925690518,
+    "tags": [
+      "phylosophy",
+      "wiki",
+      "ru",
+      "trolley",
+      "problem"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/269665/",
+    "hashAddr": 3988950358,
+    "tags": [
+      "habr",
+      "writing",
+      "storytelling",
+      "pixar",
+      "narrative",
+      "rules"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%B9_%D0%9A%D0%B0%D0%BD%D1%81%D0%B8",
+    "hashAddr": 714182917,
+    "tags": [
+      "wiki",
+      "ru",
+      "lang",
+      "chinesse",
+      "radical",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/269685/",
+    "hashAddr": 2032449776,
+    "tags": [
+      "habr",
+      "269685",
+      "signal",
+      "image",
+      "processing",
+      "algo",
+      "object",
+      "offset"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/268445/",
+    "hashAddr": 3905879177,
+    "tags": [
+      "habr",
+      "268445",
+      "signal",
+      "image",
+      "processing",
+      "algo",
+      "motion",
+      "detection"
+    ]
+  },
+  {
+    "addr": "http://geektimes.ru/post/264870/",
+    "hashAddr": 4230976446,
+    "tags": [
+      "geektimes",
+      "264870",
+      "neuro",
+      "science",
+      "invasive",
+      "brain",
+      "machine",
+      "interface",
+      "BrainGate",
+      "nexus",
+      "tablet"
+    ]
+  },
+  {
+    "addr": "http://geektimes.ru/company/robohunter/blog/264826/",
+    "hashAddr": 3174789548,
+    "tags": [
+      "geektimes",
+      "264826",
+      "writing",
+      "text",
+      "processing",
+      "auto",
+      "journalism",
+      "question",
+      "rule",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://geektimes.ru/post/264860/",
+    "hashAddr": 2946006089,
+    "tags": [
+      "geektimes",
+      "264860",
+      "audio",
+      "3d",
+      "sound",
+      "field",
+      "accoustic",
+      "hologram",
+      "levitation",
+      "air",
+      "magic"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=OWnC9tSA3iA",
+    "hashAddr": 169193238,
+    "tags": [
+      "youtube",
+      "signal",
+      "processing",
+      "term",
+      "video",
+      "feedback",
+      "loop",
+      "fractal"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D1%84%D1%80%D0%B0%D0%BA%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D1%81%D0%B6%D0%B0%D1%82%D0%B8%D1%8F",
+    "hashAddr": 2561419093,
+    "tags": [
+      "wiki",
+      "ru",
+      "signal",
+      "image",
+      "processing",
+      "algo",
+      "fractal",
+      "compression"
+    ]
+  },
+  {
+    "addr": "http://geektimes.ru/company/hashflare/blog/264856/",
+    "hashAddr": 4198064225,
+    "tags": [
+      "geektimes",
+      "264856",
+      "cripto",
+      "distrib",
+      "cetificate",
+      "authorization"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F",
+    "hashAddr": 877302317,
+    "tags": [
+      "wiki",
+      "ru",
+      "authorization",
+      "crypto",
+      "term"
+    ]
+  },
+  {
+    "addr": "http://lifehacker.ru/2014/04/22/11-offline-tourists-apps/",
+    "hashAddr": 3415379401,
+    "tags": [
+      "lifehacker",
+      "travel",
+      "android",
+      "app",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://lifehacker.ru/2015/04/06/116-instrumentov-dlya-programmistov/",
+    "hashAddr": 2914742490,
+    "tags": [
+      "lifehacker",
+      "programming",
+      "dev",
+      "tool",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://vk.com/audios276002975",
+    "hashAddr": 2483558647,
+    "tags": [
+      "vk",
+      "music"
+    ]
+  },
+  {
+    "addr": "http://vk.com/feed",
+    "hashAddr": 2110760700,
+    "tags": [
+      "vk",
+      "feed"
+    ]
+  },
+  {
+    "addr": "http://vk.com/video?section=all",
+    "hashAddr": 2181730449,
+    "tags": [
+      "vk",
+      "my",
+      "video"
+    ]
+  },
+  {
+    "addr": "http://vk.com/id276002975",
+    "hashAddr": 2495955289,
+    "tags": [
+      "vk",
+      "my",
+      "page"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Zopa",
+    "hashAddr": 4278880934,
+    "tags": [
+      "wiki",
+      "ru",
+      "zopa",
+      "p2p",
+      "money"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/269811/",
+    "hashAddr": 4275963109,
+    "tags": [
+      "habr",
+      "269811",
+      "math",
+      "recently",
+      "solved",
+      "problem",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D0%B5%D0%BD%D0%B8%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%B0",
+    "hashAddr": 4120806882,
+    "tags": [
+      "wiki",
+      "math",
+      "разбиение",
+      "числа"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F_%D1%87%D0%B8%D1%81%D0%BB%D0%B0",
+    "hashAddr": 4270713399,
+    "tags": [
+      "wiki",
+      "math",
+      "композиция",
+      "числа"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%BC%D0%BE%D1%82%D0%BE%D0%BF%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%82%D0%B8%D0%BF%D0%BE%D0%B2",
+    "hashAddr": 3843627025,
+    "tags": [
+      "wiki",
+      "math",
+      "гомотопическая",
+      "теория",
+      "типов"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/147738/",
+    "hashAddr": 2583009652,
+    "tags": [
+      "habr",
+      "147738",
+      "socio",
+      "math",
+      "model"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D0%93%D0%BE%D0%BB%D1%8C%D0%B4%D0%B1%D0%B0%D1%85%D0%B0",
+    "hashAddr": 2232638893,
+    "tags": [
+      "wiki",
+      "math",
+      "problem",
+      "проблема",
+      "Гольдбаха"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A1%D1%84%D0%B5%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE",
+    "hashAddr": 401459592,
+    "tags": [
+      "wiki",
+      "math",
+      "term",
+      "сфеническое",
+      "число"
+    ]
+  },
+  {
+    "addr": "https://www.livecoding.tv/video/r-neural-nets-and-probability-for-binary-opt-12/",
+    "hashAddr": 1737017956,
+    "tags": [
+      "livecoding",
+      "programming",
+      "R",
+      "neuro",
+      "net",
+      "binary",
+      "option"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=B_zD3NxSsD8",
+    "hashAddr": 2895763611,
+    "tags": [
+      "youtube",
+      "B_zD3NxSsD8",
+      "micro",
+      "bio",
+      "cell",
+      "inner",
+      "life",
+      "science"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=5_9Soz3D41g",
+    "hashAddr": 23135271,
+    "tags": [
+      "youtube",
+      "audio",
+      "processing",
+      "speach",
+      "recognition",
+      "google",
+      "LSTM",
+      "RNN",
+      "CTC",
+      "Acoustic",
+      "Model"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/company/google/blog/269747/",
+    "hashAddr": 2717577077,
+    "tags": [
+      "habr",
+      "269747",
+      "audio",
+      "processing",
+      "google",
+      "speach",
+      "recognition"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0_A*",
+    "hashAddr": 2043448159,
+    "tags": [
+      "wiki",
+      "algo",
+      "search",
+      "graph",
+      "A*"
     ]
   }
 ]

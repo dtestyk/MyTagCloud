@@ -16,7 +16,7 @@
 //global consts
 //
 
-const DOWNLOAD_KEY_CODE = 77
+const DOWNLOAD_KEY_CODE = 77//m
 const PREV_SELECTED_PAGE_KEY_CODE = 38
 const NEXT_SELECTED_PAGE_KEY_CODE = 40
 const N_RECENT_TAGS_CLOUD_MAX = 20
@@ -255,6 +255,11 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
       }
       return pars1.join('?')
     }
+    
+    function ExecuteBookmarklet(str)
+		{
+      navigateURL(str)
+		}
 
 //
 //data functions
@@ -515,19 +520,18 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 				arrTags.push(strTag);
 			}
 			delNotHas(sess.arrSelectedTag);
-			tagSelectArr(arrTags);
-			ShowAll();
+			tagSelectArr(arrTags)
+			ShowAll()
 		}
-		
-		function remember()
+    
+    function remember_url(url)
 		{
 			var strTags = UI.otxTags.value;
 			var arrPageTags = strTags
         .split(" ")
         .map(function(s){return s.trim()})
         .filter(function(e){return Boolean(e)});
-        
-			var curr_url = UI.window.location.toString();
+
       var str_page_tags = arrPageTags.join(" ");
 			//var strNow = strAddr+";"+fnv1a(strAddr)+";"+arrPageTags.join(" ");
 			//UI.window.alert("remember\n"+strNow)
@@ -541,10 +545,15 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 				},
 				page: {
           // used for saving in garr
-          url: curr_url,
+          url: url,
 					arrPageTags: arrPageTags
 				}
 			});
+		}
+		function remember()
+		{
+			var curr_url = UI.window.location.toString();
+      remember_url(curr_url)
 		}
 		
 		function cbDisplayChange()
@@ -576,6 +585,16 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
         ShowSelectedPage(garr_selected_only, i_next)
       }
 		}
+    
+    function on_txt_tags_drop(e)
+		{
+      var str = e.dataTransfer.getData("text/plain")
+      var is_bookmarklet = typeof str=='string' && str.slice(0,12)=='javascript:('
+      if(is_bookmarklet) e.preventDefault()
+			console.log('add url drop: ', str)
+      remember_url(str)
+		}
+    
 //
 //UI build
 //
@@ -676,6 +695,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 			addWheelHandler(UI.odvTagSelect, nextAddition);
 			addHandler(UI.ocbDisplay, "click", cbDisplayChange);
       addHandler(UI.doc, "keydown", on_document_key_down);
+      addHandler(UI.otxTags, "drop", on_txt_tags_drop);
 		}
 //
 //show
@@ -812,7 +832,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 				if( oBr )UI.ospTagAddition.removeChild(oBr);
 			}
 		}
-		
+    
 		function ShowPage()
 		{
 			if( typeof(garrSelected[iRecAddition])!="undefined" ){
@@ -934,7 +954,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 			){
 				if( isArray(msg.page.arrPageTags) ){
 					commitSelect(msg.page.arrPageTags);
-                                        ShowAllButPage();
+          ShowAllButPage();
 				}
 			}
 		}

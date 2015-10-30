@@ -1,0 +1,204 @@
+notes
+  audio
+  video
+  text
+
+  computing
+  processing
+  construction
+  visualization
+
+  perception
+  recognition
+
+  ocr
+  capcha
+
+  programming
+  crypto
+  algo
+  immediate
+  game
+  data
+  lang
+  distrib
+  online
+
+  dev
+  testing
+  deploy
+  support
+  licensing
+
+  linux
+  ubuntu
+  windows
+
+  software
+  format
+
+  chinese
+  latin
+  ru
+  en
+
+  js
+  es6
+  C#
+  powershell
+  cmd
+  wolfram
+  python
+  java
+
+  3d
+  printing
+
+  community
+  licence
+
+  math
+  topology
+  geo
+  bio
+  neuro
+  physio
+  physic
+  psycho
+  socio
+  semiotic
+  techno
+  philosophy
+  thermo
+  chrono
+  emo
+  quantum
+  sound
+  eco
+  economy
+  myth
+
+  theory
+  practical
+
+  matrix
+  graph
+
+  music
+  series
+  kino
+
+  future
+  virtual
+
+  word
+  term
+  abbr
+  idea
+  classification
+
+  person
+  world
+
+  git
+  blog
+  service
+  api
+  account
+
+  own
+  plural
+
+kino
+  scifi
+  fun
+  investigation
+  crime
+  cheat
+  superpowers
+  mystic
+  anime
+  friends
+  family
+  time travel
+  aliens
+  school
+  love
+
+youtube music
+  genre:
+    rock
+    rap
+    dance
+    dubstep
+    pop
+    trance
+    progressive
+    handsup
+
+  lang:
+    french, fr
+    german, de
+    finnish
+    magyar
+    japan
+    korean
+    russian, ru
+    spanish, espanol, sp
+
+  genre prefix:
+    euro
+    j
+    k
+
+  artist:
+    BOTDF
+    rihanna
+    LP
+    LaFee
+    Ellie Goulding
+    Alizee
+    Katy Perry
+    Young London
+    Mabra
+    Emma Hewitt
+    Lady Gaga
+    Britney Spears
+
+  mixer:
+    Aftermath
+    Dj Satomi
+    Scott E
+
+  modifier:
+    amv
+    modality:
+      lyrics, letras
+      audio
+      music video
+    official
+    piano
+    nightcore
+    explicit
+    full
+    waves
+    quality:
+      hd, hq, 1080p
+    slow
+    edit:
+      original
+      club
+      radio
+      remix
+    feat. 'artist'
+    'mixer' remix
+
+  feature:
+    vocal
+    awesome
+
+    mashup
+    compilation
+
+book tag system:
+  fantlab.ru/bygenre

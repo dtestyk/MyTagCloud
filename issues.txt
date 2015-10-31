@@ -16,8 +16,14 @@ auto tags surfing:
   ignore tag by timeout
   random tag select
   proportional to n
+
+auto tags surfing:
+  перебор подмножества тегов
+  счет в коде Грея
   
 hashchange event on window
 
 
 user tag address
+
+wiki/Расстояние_Хэмминга

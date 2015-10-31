@@ -1,11 +1,11 @@
 # MyTagCloud
-distributed
-tag<br>
+web curation chrome extension
 <ul>
 <li>bookmarking service</li>
-<li>navigator</li>
-<li>searcher</li>
-<li>recommendation system</li>
+<li>tag navigator</li>
+<li>searcher(planning)</li>
+<li>recommendation system(planning)</li>
+<li>distributed tag system(planning)</li>
 </ul>
 
 press ctrl+m to export tags data

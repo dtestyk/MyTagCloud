@@ -260,6 +260,40 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 		{
       navigateURL(str)
 		}
+		
+		function getWordAtPoint(elem, x, y) {
+      if(elem.nodeType == elem.TEXT_NODE) {
+        var range = elem.ownerDocument.createRange();
+        range.selectNodeContents(elem);
+        var currentPos = 0;
+        var endPos = range.endOffset;
+        while(currentPos+1 < endPos) {
+          range.setStart(elem, currentPos);
+          range.setEnd(elem, currentPos+1);
+          if(range.getBoundingClientRect().left <= x && range.getBoundingClientRect().right  >= x &&
+             range.getBoundingClientRect().top  <= y && range.getBoundingClientRect().bottom >= y) {
+            range.expand("word");
+            var ret = range.toString();
+            range.detach();
+            return(ret);
+          }
+          currentPos += 1;
+        }
+      } else {
+        for(var i = 0; i < elem.childNodes.length; i++) {
+          var range = elem.childNodes[i].ownerDocument.createRange();
+          range.selectNodeContents(elem.childNodes[i]);
+          if(range.getBoundingClientRect().left <= x && range.getBoundingClientRect().right  >= x &&
+             range.getBoundingClientRect().top  <= y && range.getBoundingClientRect().bottom >= y) {
+            range.detach();
+            return(getWordAtPoint(elem.childNodes[i], x, y));
+          } else {
+            range.detach();
+          }
+        }
+      }
+      return(null);
+    }   
 
 //
 //data functions
@@ -594,6 +628,26 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 			console.log('add url drop: ', str)
       remember_url(str)
 		}
+		
+		var x
+    var y
+    var el
+    var word
+    var word_prev
+    function on_document_mouse_move(e){
+        x = e.clientX
+        y = e.clientY
+        el = document.elementFromPoint(x, y)
+        word = getWordAtPoint(el, x, y)
+        if(word && word !== word_prev){
+          console.log(word)
+          //garrSelected.length;
+          //garrSelected
+			    ShowAddition(iRecAddition);
+          word_prev = word
+        }
+        //console.log(el)
+    }
     
 //
 //UI build
@@ -696,6 +750,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 			addHandler(UI.ocbDisplay, "click", cbDisplayChange);
       addHandler(UI.doc, "keydown", on_document_key_down);
       addHandler(UI.otxTags, "drop", on_txt_tags_drop);
+      addHandler(UI.doc, "mousemove", on_document_mouse_move);
 		}
 //
 //show

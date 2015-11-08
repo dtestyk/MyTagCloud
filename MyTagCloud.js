@@ -417,20 +417,19 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
       var j_max = -1
       var iRec_j_max = 0
 			for(var iRec=0; iRec<garrSelected.length; iRec++) {
-				if( typeof garrSelected[iRec] != "function" ){
-          var related = garrSelected[iRec]
-          var tags_related = related.tags
-          for(var j=0; j<tags.length; j++){
-            var tag = tags[j]
-            var is_related_contain_tag = tags_related.indexOf(tag)>=0
-            if(is_related_contain_tag && j>j_max){
-              j_max = j
-              iRec_j_max = iRec
-            }else{
-              break
-            }
+				if( typeof garrSelected[iRec] == "function" ) continue
+				
+        var related = garrSelected[iRec]
+        var tags_related = related.tags
+        for(var j=0; j<tags.length; j++){
+          var tag = tags[j]
+          var is_related_contain_tag = tags_related.indexOf(tag)>=0
+          if(!is_related_contain_tag) break
+          if(j>j_max){
+            j_max = j
+            iRec_j_max = iRec
           }
-				}
+        }
 			}
 			return {iRec: iRec_j_max, n_tags: j_max+1}
 		}
@@ -673,13 +672,16 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
       prev_word = word
 
       var word_lower = word.toLowerCase()
-
+      
       if(word_lower == prev_known_word_lower) return
       var is_word_known = get_garr_selected_index_containing_tags(garrSelected, [word_lower]).n_tags > 0
       if(!is_word_known) return
       prev_known_word_lower = word_lower
       
+      var prev_index = last_words.indexOf(word_lower)
+      if(prev_index >= 0) last_words.splice(prev_index, 1)
       last_words.unshift(word_lower)
+      
       var index_obj = get_garr_selected_index_containing_tags(garrSelected, last_words)
       
       if(index_obj.n_tags > 0){
@@ -688,7 +690,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
       
       //leave only matched words
       last_words = last_words.slice(0, index_obj.n_tags)
-      console.log(word, word_lower, last_words, index_obj)
+      console.log(word_lower, last_words, index_obj)
       if(index_obj.n_tags > 0){
         iRecAddition = index_obj.iRec
         ShowAddition(iRecAddition);

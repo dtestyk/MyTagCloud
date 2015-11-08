@@ -410,6 +410,30 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 			}
 			return garr_selected_only
 		}
+		
+		function get_garr_selected_index_containing_tags(garrSelected, tags)
+		{
+      var garr_selected_only = []
+      var j_max = -1
+      var iRec_j_max = 0
+			for(var iRec=0; iRec<garrSelected.length; iRec++) {
+				if( typeof garrSelected[iRec] != "function" ){
+          var related = garrSelected[iRec]
+          var tags_related = related.tags
+          for(var j=0; j<tags.length; j++){
+            var tag = tags[j]
+            var is_related_contain_tag = tags_related.indexOf(tag)>=0
+            if(is_related_contain_tag && j>j_max){
+              j_max = j
+              iRec_j_max = iRec
+            }else{
+              break
+            }
+          }
+				}
+			}
+			return {iRec: iRec_j_max, n_tags: j_max+1}
+		}
     
     function get_index_selected_only(get_garr_selected_only, curr_url)
 		{
@@ -633,20 +657,43 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
     var y
     var el
     var word
-    var word_prev
+    var prev_word
+    var prev_known_word_lower
+    var last_words = []
+    //var chain_tree = []
     function on_document_mouse_move(e){
-        x = e.clientX
-        y = e.clientY
-        el = document.elementFromPoint(x, y)
-        word = getWordAtPoint(el, x, y)
-        if(word && word !== word_prev){
-          console.log(word)
-          //garrSelected.length;
-          //garrSelected
-			    ShowAddition(iRecAddition);
-          word_prev = word
-        }
-        //console.log(el)
+      x = e.clientX
+      y = e.clientY
+      el = document.elementFromPoint(x, y)
+      //console.log(el)
+      word = getWordAtPoint(el, x, y)
+      if(!word) return
+      
+      if(word == prev_word) return
+      prev_word = word
+
+      var word_lower = word.toLowerCase()
+
+      if(word_lower == prev_known_word_lower) return
+      var is_word_known = get_garr_selected_index_containing_tags(garrSelected, [word_lower]).n_tags > 0
+      if(!is_word_known) return
+      prev_known_word_lower = word_lower
+      
+      last_words.unshift(word_lower)
+      var index_obj = get_garr_selected_index_containing_tags(garrSelected, last_words)
+      
+      if(index_obj.n_tags > 0){
+        last_words.push(last_words)
+      }
+      
+      //leave only matched words
+      last_words = last_words.slice(0, index_obj.n_tags)
+      console.log(word, word_lower, last_words, index_obj)
+      if(index_obj.n_tags > 0){
+        iRecAddition = index_obj.iRec
+        ShowAddition(iRecAddition);
+      }
+
     }
     
 //

@@ -20,6 +20,8 @@ auto tags surfing:
 auto tags surfing:
   перебор подмножества тегов
   счет в коде Грея
+  habr/200806 Перебор подмножеств данного множества в порядке минимального изменения
+
   
 hashchange event on window
 

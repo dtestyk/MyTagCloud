@@ -293,7 +293,22 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
         }
       }
       return(null);
-    }   
+    }
+    
+    function debounce(func, wait, immediate) {
+      var timeout;
+      return function() {
+        var context = this, args = arguments;
+        var later = function() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
 
 //
 //data functions
@@ -799,7 +814,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 			addHandler(UI.ocbDisplay, "click", cbDisplayChange);
       addHandler(UI.doc, "keydown", on_document_key_down);
       addHandler(UI.otxTags, "drop", on_txt_tags_drop);
-      addHandler(UI.doc, "mousemove", on_document_mouse_move);
+      addHandler(UI.doc, "mousemove", debounce(on_document_mouse_move, 500));
 		}
 //
 //show

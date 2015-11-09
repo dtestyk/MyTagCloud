@@ -1798,7 +1798,8 @@
     "tags": [
       "nightcore",
       "fantasy",
-      "youtube"
+      "youtube",
+      "playlist"
     ]
   },
   {
@@ -1928,7 +1929,8 @@
       "google",
       "keep",
       "online",
-      "tools"
+      "tool",
+      "plural"
     ]
   },
   {
@@ -2651,6 +2653,1541 @@
       "search",
       "graph",
       "A*"
+    ]
+  },
+  {
+    "addr": "https://github.com/dtestyk/MyTagCloud",
+    "hashAddr": 3613411589,
+    "tags": [
+      "github",
+      "dtestyk",
+      "mytagcloud"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Linear_search",
+    "hashAddr": 2981087900,
+    "tags": [
+      "wiki",
+      "en",
+      "programming",
+      "algo",
+      "linear",
+      "search"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA",
+    "hashAddr": 2847779318,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "algo",
+      "linear",
+      "search"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%98%D1%82%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F",
+    "hashAddr": 1950091066,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "algo",
+      "term",
+      "iteration"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D0%BA%D0%BB_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)#.D0.9F.D1.80.D0.BE.D0.BF.D1.83.D1.81.D0.BA_.D0.B8.D1.82.D0.B5.D1.80.D0.B0.D1.86.D0.B8.D0.B8",
+    "hashAddr": 3510752527,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "algo",
+      "term",
+      "cycle"
+    ]
+  },
+  {
+    "addr": "http://dtf.ru/articles/read.php?id=57085",
+    "hashAddr": 2199074279,
+    "tags": [
+      "dft",
+      "57085",
+      "programming",
+      "algo",
+      "graph",
+      "search",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/162915/",
+    "hashAddr": 3382949264,
+    "tags": [
+      "habr",
+      "162915",
+      "programming",
+      "algo",
+      "graph",
+      "search",
+      "jump",
+      "point"
+    ]
+  },
+  {
+    "addr": "http://tunein.com/",
+    "hashAddr": 392707862,
+    "tags": [
+      "tunein",
+      "online",
+      "radio",
+      "music"
+    ]
+  },
+  {
+    "addr": "http://tunein.com/radio/Science-c520464/",
+    "hashAddr": 3874148266,
+    "tags": [
+      "tunein",
+      "online",
+      "radio",
+      "science"
+    ]
+  },
+  {
+    "addr": "http://tunein.com/radio/Sci-Fi-g217/",
+    "hashAddr": 4187558920,
+    "tags": [
+      "tunein",
+      "online",
+      "radio",
+      "sci",
+      "fi"
+    ]
+  },
+  {
+    "addr": "http://www.memrise.com/home/",
+    "hashAddr": 808661084,
+    "tags": [
+      "memrise",
+      "language",
+      "study"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/trendsdashboard",
+    "hashAddr": 227711062,
+    "tags": [
+      "youtube",
+      "dashboard",
+      "country",
+      "age",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/trendsmap#sex=0&age=0&type=1",
+    "hashAddr": 3894065882,
+    "tags": [
+      "youtube",
+      "dashboard",
+      "country",
+      "age",
+      "plural",
+      "trandsmap"
+    ]
+  },
+  {
+    "addr": "http://tunein.com/radio/Top-40Pop-c57943/",
+    "hashAddr": 2365342856,
+    "tags": [
+      "tunein",
+      "pop",
+      "radio",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BA%D1%83,_%D0%9C%D0%B8%D1%82%D0%B8%D0%BE",
+    "hashAddr": 130587568,
+    "tags": [
+      "wiki",
+      "ru",
+      "person",
+      "Michio",
+      "Kaku"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D1%8D%D0%BD%D1%81%D0%BE%D0%BD,_%D0%A0%D0%B8%D1%87%D0%B0%D1%80%D0%B4",
+    "hashAddr": 3257345608,
+    "tags": [
+      "wiki",
+      "ru",
+      "person",
+      "Richard",
+      "Branson"
+    ]
+  },
+  {
+    "addr": "http://karpathy.github.io/neuralnets/",
+    "hashAddr": 1322589389,
+    "tags": [
+      "programming",
+      "js",
+      "ai",
+      "neural",
+      "networks",
+      "guide"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1446019690344.67785420",
+    "hashAddr": 976669774,
+    "tags": [
+      "google",
+      "keep",
+      "chinese",
+      "lang",
+      "feel",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1445982666042.216379754",
+    "hashAddr": 209809237,
+    "tags": [
+      "google",
+      "keep",
+      "wide",
+      "programming"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1445635514163.1595301577",
+    "hashAddr": 2502467381,
+    "tags": [
+      "google",
+      "keep",
+      "ideographic",
+      "programming",
+      "chinese",
+      "lang"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1445444581590.123470660",
+    "hashAddr": 3518184769,
+    "tags": [
+      "google",
+      "keep",
+      "note",
+      "tag",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1444089185478.1311352751",
+    "hashAddr": 2693146230,
+    "tags": [
+      "google",
+      "keep",
+      "chinese",
+      "user"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1426857242356.987500123",
+    "hashAddr": 2070485990,
+    "tags": [
+      "google",
+      "keep",
+      "programming",
+      "opposite",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1426197592195.1476985003",
+    "hashAddr": 3175069150,
+    "tags": [
+      "google",
+      "keep",
+      "word",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://www.dspguide.com/download.htm",
+    "hashAddr": 2295317422,
+    "tags": [
+      "signal",
+      "processing",
+      "dspguide",
+      "downloads"
+    ]
+  },
+  {
+    "addr": "http://programmingcomputervision.com/",
+    "hashAddr": 4145105415,
+    "tags": [
+      "programming",
+      "compuer",
+      "vision",
+      "signal",
+      "video",
+      "processing",
+      "python"
+    ]
+  },
+  {
+    "addr": "http://www.dspguide.com/pdfbook.htm",
+    "hashAddr": 2863688907,
+    "tags": [
+      "signal",
+      "processing",
+      "book",
+      "dspguide"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Pyramid_(image_processing)",
+    "hashAddr": 1754064247,
+    "tags": [
+      "wiki",
+      "en",
+      "image",
+      "processing",
+      "term",
+      "pyramid"
+    ]
+  },
+  {
+    "addr": "http://www.neurotechnologies.ru/",
+    "hashAddr": 199705053,
+    "tags": [
+      "neuro",
+      "technology",
+      "ru"
+    ]
+  },
+  {
+    "addr": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/what-is-watson.html",
+    "hashAddr": 3681859890,
+    "tags": [
+      "ibm",
+      "watson",
+      "ia",
+      "web",
+      "cognitive",
+      "processing"
+    ]
+  },
+  {
+    "addr": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catalog.html",
+    "hashAddr": 3096638866,
+    "tags": [
+      "ibm",
+      "watson",
+      "ia",
+      "service",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://tone-analyzer-demo.mybluemix.net/?cm_mc_sid_50200000=1446262457&cm_mc_uid=72172830660314462624577",
+    "hashAddr": 2910406276,
+    "tags": [
+      "ibm",
+      "watson",
+      "ia",
+      "service",
+      "emotion",
+      "recognition",
+      "by",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "https://watson-pi-demo.mybluemix.net/",
+    "hashAddr": 2502453042,
+    "tags": [
+      "ibm",
+      "watson",
+      "ia",
+      "service",
+      "personality",
+      "analyzer",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "http://visual-insights-demo.mybluemix.net/",
+    "hashAddr": 1538999479,
+    "tags": [
+      "ibm",
+      "watson",
+      "ia",
+      "service",
+      "image",
+      "processing",
+      "tag",
+      "extractor"
+    ]
+  },
+  {
+    "addr": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/visual-insights/sample.shtml#sample",
+    "hashAddr": 759960892,
+    "tags": [
+      "ibm",
+      "watson",
+      "ia",
+      "service",
+      "api",
+      "node",
+      "js",
+      "visual",
+      "insights"
+    ]
+  },
+  {
+    "addr": "https://hub.jazz.net/project/bsvihovec/PITN/overview#https://hub.jazz.net/project/bsvihovec/PITN/bsvihovec%2520%257C%2520PITN/_lepSgH8VEeS4h5PGaFO19Q/_le_QwH8VEeS4h5PGaFO19Q/peopleInNews/app.js",
+    "hashAddr": 1988332003,
+    "tags": [
+      "programming",
+      "api",
+      "watson",
+      "peopleInNews",
+      "service",
+      "node",
+      "js",
+      "hub",
+      "jazz",
+      "ibm",
+      "bluemix"
+    ]
+  },
+  {
+    "addr": "https://hub.jazz.net/explore/popular",
+    "hashAddr": 1844349735,
+    "tags": [
+      "programming",
+      "ibm",
+      "bluemix",
+      "dev",
+      "service",
+      "plural",
+      "hub",
+      "jazz",
+      "source",
+      "code",
+      "project"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1445194298304.688461736",
+    "hashAddr": 611702021,
+    "tags": [
+      "google",
+      "keep",
+      "programming",
+      "dev",
+      "term",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%9B%D0%B8",
+    "hashAddr": 4168312088,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "algo",
+      "graph",
+      "search",
+      "lee"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Depth-first_search",
+    "hashAddr": 3844319117,
+    "tags": [
+      "wiki",
+      "en",
+      "programming",
+      "algo",
+      "graph",
+      "depth",
+      "first",
+      "search"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/269879/",
+    "hashAddr": 3644212567,
+    "tags": [
+      "habr",
+      "269879",
+      "bitcoin",
+      "crypto",
+      "2p2",
+      "money",
+      "explanation"
+    ]
+  },
+  {
+    "addr": "http://www.iemoji.com/emoji-cheat-sheet/all",
+    "hashAddr": 2749916045,
+    "tags": [
+      "emoji",
+      "text",
+      "name",
+      "symbol",
+      "emo",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%AD%D0%BC%D0%BE%D0%B4%D0%B7%D0%B8",
+    "hashAddr": 4216220164,
+    "tags": [
+      "wiki",
+      "ru",
+      "emo",
+      "symbol",
+      "plural",
+      "emoji"
+    ]
+  },
+  {
+    "addr": "http://apps.timwhitlock.info/emoji/tables/unicode",
+    "hashAddr": 721489003,
+    "tags": [
+      "unicode",
+      "name",
+      "symbol",
+      "plural",
+      "emo",
+      "emoji"
+    ]
+  },
+  {
+    "addr": "http://apps.timwhitlock.info/emoji/tables/unicode#block-2-dingbats",
+    "hashAddr": 809302641,
+    "tags": [
+      "unicode",
+      "name",
+      "symbol",
+      "plural",
+      "emo",
+      "emoji",
+      "emoticon",
+      "dingbats"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Block_chain_(database)",
+    "hashAddr": 2669007482,
+    "tags": [
+      "wiki",
+      "2p2",
+      "database",
+      "block",
+      "chain"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Proof_of_Existence",
+    "hashAddr": 3125617755,
+    "tags": [
+      "wiki",
+      "2p2",
+      "database",
+      "block",
+      "chain",
+      "proof",
+      "of",
+      "existence"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/company/microsoft/blog/269871/",
+    "hashAddr": 2592436076,
+    "tags": [
+      "habr",
+      "269871",
+      "programming",
+      "js",
+      "es7",
+      "async",
+      "await",
+      "microsoft",
+      "edge",
+      "chakra"
+    ]
+  },
+  {
+    "addr": "http://megamozg.ru/post/20788/",
+    "hashAddr": 2881056273,
+    "tags": [
+      "megamozg",
+      "20788",
+      "agile",
+      "user",
+      "story"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/200806/",
+    "hashAddr": 2154407580,
+    "tags": [
+      "habr",
+      "200806",
+      "programming",
+      "algo",
+      "Grey",
+      "code",
+      "brute",
+      "force",
+      "search"
+    ]
+  },
+  {
+    "addr": "http://www.di.fm/vocaltrance",
+    "hashAddr": 3858317717,
+    "tags": [
+      "radio",
+      "di",
+      "fm",
+      "vocal",
+      "trance"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Data_processing",
+    "hashAddr": 1072338264,
+    "tags": [
+      "wiki",
+      "en",
+      "programming",
+      "term",
+      "data",
+      "processing"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F",
+    "hashAddr": 4437582,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "term",
+      "software",
+      "architecture"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85",
+    "hashAddr": 3430376075,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "term",
+      "communication",
+      "protocol"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/269875/",
+    "hashAddr": 1497368883,
+    "tags": [
+      "habr",
+      "269875",
+      "sort",
+      "algo",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Counting_sort",
+    "hashAddr": 3151862440,
+    "tags": [
+      "wiki",
+      "en",
+      "programming",
+      "algo",
+      "counting",
+      "sort"
+    ]
+  },
+  {
+    "addr": "http://rosettacode.org/wiki/Sorting_algorithms/Sleep_sort#C.23",
+    "hashAddr": 314064995,
+    "tags": [
+      "rosettacode",
+      "wiki",
+      "programming",
+      "algo",
+      "sleep",
+      "sort"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1446215006748.575328394",
+    "hashAddr": 2396622624,
+    "tags": [
+      "google",
+      "keep",
+      "programming",
+      "algo",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://rosettacode.org/wiki/Sorting_algorithms",
+    "hashAddr": 4074539779,
+    "tags": [
+      "rosettacode",
+      "wiki",
+      "programming",
+      "algo",
+      "sort",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0_%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5%D0%BC",
+    "hashAddr": 1876428644,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "algo",
+      "merge",
+      "sort"
+    ]
+  },
+  {
+    "addr": "http://geektimes.ru/post/265050/",
+    "hashAddr": 3334714019,
+    "tags": [
+      "geektimes",
+      "265050",
+      "quantum",
+      "communication"
+    ]
+  },
+  {
+    "addr": "http://www.aforgenet.com/framework/downloads.html",
+    "hashAddr": 3519329414,
+    "tags": [
+      "programming",
+      "image",
+      "processing",
+      "c#",
+      "lib",
+      "aforge",
+      "download"
+    ]
+  },
+  {
+    "addr": "https://github.com/encog/encog-javascript",
+    "hashAddr": 1245684590,
+    "tags": [
+      "programming",
+      "github",
+      "encog",
+      "machine",
+      "learning",
+      "neural",
+      "network",
+      "lib",
+      "javascript"
+    ]
+  },
+  {
+    "addr": "https://github.com/encog/encog-dotnet-core",
+    "hashAddr": 1981869705,
+    "tags": [
+      "programming",
+      "github",
+      "encog",
+      "machine",
+      "learning",
+      "neural",
+      "network",
+      "lib",
+      "dotnet",
+      "C#"
+    ]
+  },
+  {
+    "addr": "http://geektimes.ru/post/265070/",
+    "hashAddr": 3428300825,
+    "tags": [
+      "geektimes",
+      "265070",
+      "lang",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Encog",
+    "hashAddr": 218056528,
+    "tags": [
+      "wiki",
+      "en",
+      "machine",
+      "learning",
+      "neural",
+      "network",
+      "encog"
+    ]
+  },
+  {
+    "addr": "http://www.heatonresearch.com/encog/",
+    "hashAddr": 738523309,
+    "tags": [
+      "machine",
+      "learning",
+      "neural",
+      "network",
+      "encog",
+      "homepage"
+    ]
+  },
+  {
+    "addr": "https://github.com/encog",
+    "hashAddr": 322458687,
+    "tags": [
+      "github",
+      "en",
+      "machine",
+      "learning",
+      "framework",
+      "neural",
+      "network",
+      "encog"
+    ]
+  },
+  {
+    "addr": "http://www.codeproject.com/Articles/477689/JavaScript-Machine-Learning-and-Neural-Networks-wi",
+    "hashAddr": 959219741,
+    "tags": [
+      "codeproject",
+      "programming",
+      "github",
+      "encog",
+      "machine",
+      "learning",
+      "neural",
+      "network",
+      "lib",
+      "js"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B5%D1%80%D0%B5%D0%B1%D0%BE%D1%80",
+    "hashAddr": 2614848757,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "algo",
+      "term",
+      "brute",
+      "force"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A7%D0%B6%D1%83%D0%B8%D0%BD%D1%8C_%D1%84%D1%83%D1%85%D0%B0%D0%BE",
+    "hashAddr": 2482866855,
+    "tags": [
+      "wiki",
+      "ru",
+      "lang",
+      "chinese",
+      "phonetic",
+      "alphabet"
+    ]
+  },
+  {
+    "addr": "http://ctext.org/dictionary.pl?if=en",
+    "hashAddr": 1578968956,
+    "tags": [
+      "ctext",
+      "chinese",
+      "radical",
+      "plural",
+      "lookup",
+      "search"
+    ]
+  },
+  {
+    "addr": "https://www.pleco.com/",
+    "hashAddr": 1304999846,
+    "tags": [
+      "chinese",
+      "pleco",
+      "dictionary",
+      "mobile",
+      "app"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BA%D0%B8%D0%BF%D0%BE%D0%BD%D0%B0",
+    "hashAddr": 360691904,
+    "tags": [
+      "wiki",
+      "ru",
+      "lang",
+      "tokipona"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers",
+    "hashAddr": 3501308518,
+    "tags": [
+      "wiki",
+      "en",
+      "lang",
+      "plural",
+      "popularity"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/264813/",
+    "hashAddr": 389099316,
+    "tags": [
+      "habr",
+      "264813",
+      "js",
+      "es6",
+      "oop",
+      "inheritance"
+    ]
+  },
+  {
+    "addr": "http://www.edsd.com/principles/development-cycle",
+    "hashAddr": 3467274338,
+    "tags": [
+      "programming",
+      "development",
+      "cycle",
+      "edsd"
+    ]
+  },
+  {
+    "addr": "https://en.wiktionary.org/wiki/%E2%88%85",
+    "hashAddr": 3648160257,
+    "tags": [
+      "wiktionary",
+      "wiki",
+      "math",
+      "empty",
+      "set",
+      "unicode",
+      "symbol"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Audio_watermark",
+    "hashAddr": 4219930697,
+    "tags": [
+      "wiki",
+      "en",
+      "audio",
+      "copyright",
+      "cripto",
+      "watermark"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/269999/",
+    "hashAddr": 699692248,
+    "tags": [
+      "habr",
+      "269999",
+      "cripto",
+      "dynamic",
+      "analysis",
+      "sandbox",
+      "fingerprint",
+      "android"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/269991/",
+    "hashAddr": 698412320,
+    "tags": [
+      "habr",
+      "269991",
+      "signal",
+      "processing",
+      "fourirer",
+      "transform"
+    ]
+  },
+  {
+    "addr": "http://www.studmed.ru/docs/document37409/content",
+    "hashAddr": 2877574708,
+    "tags": [
+      "studmed",
+      "audio",
+      "processing",
+      "method",
+      "hilbert",
+      "huang",
+      "transform",
+      "HHT"
+    ]
+  },
+  {
+    "addr": "http://www.dsplib.ru/content/win/win.html",
+    "hashAddr": 2376416386,
+    "tags": [
+      "dsplib",
+      "audio",
+      "processing",
+      "window",
+      "function",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/180135/",
+    "hashAddr": 65770122,
+    "tags": [
+      "habr",
+      "180135",
+      "life",
+      "game",
+      "fourirer",
+      "transform"
+    ]
+  },
+  {
+    "addr": "http://lurkmore.to/%D0%9D%D0%B5%D0%BA%D1%80%D0%BE%D0%BF%D0%BE%D1%81%D1%82",
+    "hashAddr": 531493873,
+    "tags": [
+      "lurk",
+      "web",
+      "term",
+      "Некропост"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%B3%D0%BC%D0%BE%D0%B8%D0%B4%D0%B0",
+    "hashAddr": 686743247,
+    "tags": [
+      "wiki",
+      "ru",
+      "math",
+      "term",
+      "Сигмоида",
+      "neural",
+      "network"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D0%B7%D0%BE%D1%80",
+    "hashAddr": 1290444731,
+    "tags": [
+      "wiki",
+      "ru",
+      "programming",
+      "term",
+      "hipervisor"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1385205204053.1872769203",
+    "hashAddr": 2085071445,
+    "tags": [
+      "google",
+      "keep",
+      "blog",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/company/infopulse/blog/268979/",
+    "hashAddr": 1624911253,
+    "tags": [
+      "habr",
+      "268979",
+      "R",
+      "network",
+      "dynamic",
+      "visualization"
+    ]
+  },
+  {
+    "addr": "http://www.opera.com/ru",
+    "hashAddr": 385081316,
+    "tags": [
+      "opera",
+      "browser",
+      "download"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Linear_regression",
+    "hashAddr": 3371488949,
+    "tags": [
+      "wiki",
+      "en",
+      "statistics",
+      "dsp",
+      "digital",
+      "signal",
+      "processing",
+      "ml",
+      "machine",
+      "learning",
+      "term",
+      "linear",
+      "regression"
+    ]
+  },
+  {
+    "addr": "https://en.wikipedia.org/wiki/Statistics",
+    "hashAddr": 1783157585,
+    "tags": [
+      "wiki",
+      "en",
+      "statistics"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%B8%D1%89%D0%B5%D0%B2%D1%8B%D1%85_%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BE%D0%BA_E100_%E2%80%94_E199",
+    "hashAddr": 2877202796,
+    "tags": [
+      "wiki",
+      "food",
+      "additive",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://keep.google.com/#NOTE/1428877337302.1544090681",
+    "hashAddr": 2541650747,
+    "tags": [
+      "google",
+      "keep",
+      "fact",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=q_oB7tn41iE",
+    "hashAddr": 2567200676,
+    "tags": [
+      "eisblume",
+      "fur",
+      "immer",
+      "youtube",
+      "german",
+      "pop",
+      "vocal"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=7&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=zAnSr5N3c8E",
+    "hashAddr": 1567030714,
+    "tags": [
+      "ben",
+      "haenow",
+      "second",
+      "hand",
+      "heart",
+      "official",
+      "video",
+      "ft",
+      "kelly",
+      "clarkson",
+      "youtube",
+      "manerity",
+      "transition"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?index=11&list=FLQ70yTamaN3EZ6dRzt-2u7w&v=YQHsXMglC9A",
+    "hashAddr": 1380011675,
+    "tags": [
+      "adele",
+      "hello",
+      "youtube",
+      "manerity",
+      "transition"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=29GWMT0GB6s",
+    "hashAddr": 1950662797,
+    "tags": [
+      "olly",
+      "murs",
+      "up",
+      "official",
+      "video",
+      "ft",
+      "demi",
+      "lovato",
+      "youtube",
+      "manerity",
+      "transition"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=My2FRPA3Gf8",
+    "hashAddr": 2491964254,
+    "tags": [
+      "miley",
+      "cyrus",
+      "wrecking",
+      "ball",
+      "youtube",
+      "manerity",
+      "transition"
+    ]
+  },
+  {
+    "addr": "https://ficbook.net/",
+    "hashAddr": 3108876289,
+    "tags": [
+      "ficbook",
+      "writing"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=EspCzgXH0o0",
+    "hashAddr": 695023200,
+    "tags": [
+      "youtube",
+      "Jordin",
+      "Sparks",
+      "Tattoo"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=PIE5QtkxzvM",
+    "hashAddr": 1103107891,
+    "tags": [
+      "jordin",
+      "sparks",
+      "one",
+      "step",
+      "at",
+      "a",
+      "time",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=suPlYwJ3YvM",
+    "hashAddr": 124691450,
+    "tags": [
+      "jordin",
+      "sparks",
+      "battlefield",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=jWE0vdJeNbU",
+    "hashAddr": 2886701953,
+    "tags": [
+      "jordin",
+      "sparks",
+      "s",
+      "o",
+      "s",
+      "let",
+      "the",
+      "music",
+      "play",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=WBKnpyoFEBo",
+    "hashAddr": 942336463,
+    "tags": [
+      "jordin",
+      "sparks",
+      "chris",
+      "brown",
+      "no",
+      "air",
+      "official",
+      "video",
+      "ft",
+      "chris",
+      "brown",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%98%D0%B5%D1%80%D0%B0%D1%80%D1%85%D0%B8%D1%8F_%D0%A5%D0%BE%D0%BC%D1%81%D0%BA%D0%BE%D0%B3%D0%BE",
+    "hashAddr": 693201230,
+    "tags": [
+      "wiki",
+      "programming",
+      "term",
+      "иерархия",
+      "хомского",
+      "text",
+      "processing"
+    ]
+  },
+  {
+    "addr": "http://www.shoutcast.com/",
+    "hashAddr": 3247018786,
+    "tags": [
+      "radio",
+      "shoutcast"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BD%D1%8A%D1%8E%D0%BD%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%80%D0%BC%D0%B0",
+    "hashAddr": 517356608,
+    "tags": [
+      "wiki",
+      "ru",
+      "math",
+      "term",
+      "plural",
+      "совершенная",
+      "конъюнктивная",
+      "нормальная",
+      "форма",
+      "СКНФ"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B4%D0%B8%D0%B7%D1%8A%D1%8E%D0%BD%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%80%D0%BC%D0%B0",
+    "hashAddr": 4022525217,
+    "tags": [
+      "wiki",
+      "ru",
+      "math",
+      "term",
+      "plural",
+      "дизъюнктивная",
+      "нормальная",
+      "форма",
+      "СДНФ"
+    ]
+  },
+  {
+    "addr": "http://ru.dianomica.wikia.com/wiki/%D0%91%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B4%D1%83%D1%80%D0%BD%D0%B0%D1%8F",
+    "hashAddr": 992146322,
+    "tags": [
+      "dianomica",
+      "wiki",
+      "philosophy",
+      "term",
+      "дурная",
+      "бесконечность",
+      "гегель"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%B3%D0%B0%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F",
+    "hashAddr": 906414988,
+    "tags": [
+      "wiki",
+      "ru",
+      "crypto",
+      "term",
+      "steganography"
+    ]
+  },
+  {
+    "addr": "http://ru.dianomica.wikia.com/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D1%82%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D0%B0",
+    "hashAddr": 2771493946,
+    "tags": [
+      "dianomica",
+      "wiki",
+      "ru",
+      "philosophy",
+      "term",
+      "закон",
+      "тождества"
+    ]
+  },
+  {
+    "addr": "http://iph.ras.ru/elib/3503.html",
+    "hashAddr": 2173953971,
+    "tags": [
+      "iph",
+      "ras",
+      "philosophy",
+      "writing",
+      "term",
+      "эквивокация",
+      "tag",
+      "browser"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%BE%D0%BF",
+    "hashAddr": 2519051127,
+    "tags": [
+      "wiki",
+      "ru",
+      "writing",
+      "term",
+      "троп",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B3%D1%83%D1%80%D1%8B_%D1%80%D0%B5%D1%87%D0%B8",
+    "hashAddr": 4123331589,
+    "tags": [
+      "wiki",
+      "ru",
+      "writing",
+      "term",
+      "фигуры",
+      "речи",
+      "plural"
+    ]
+  },
+  {
+    "addr": "https://ru.wikipedia.org/wiki/%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%BF%D0%BE_%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8",
+    "hashAddr": 2433034580,
+    "tags": [
+      "wiki",
+      "ru",
+      "crypto",
+      "term",
+      "timing",
+      "attack"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=rSqJn_XU728",
+    "hashAddr": 2578198718,
+    "tags": [
+      "youtube",
+      "kerli",
+      "scream"
+    ]
+  },
+  {
+    "addr": "Another ",
+    "hashAddr": 2865143036,
+    "tags": [
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=1w5zZwwiduk",
+    "hashAddr": 3088113609,
+    "tags": [
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=aCSZRUI-SWs",
+    "hashAddr": 529167952,
+    "tags": [
+      "nightcore",
+      "fantasy",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "https://www.youtube.com/watch?v=O9ZwN7s20ec",
+    "hashAddr": 949556034,
+    "tags": [
+      "nightcore",
+      "runnin",
+      "youtube"
+    ]
+  },
+  {
+    "addr": "http://googleresearch.blogspot.co.uk/2015/11/computer-respond-to-this-email.html?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=email&utm_source=Artificial_Intelligence_Weekly_23",
+    "hashAddr": 3428063727,
+    "tags": [
+      "strong",
+      "ia",
+      "computer",
+      "email",
+      "respond",
+      "recurrant",
+      "neural",
+      "networks",
+      "long",
+      "short",
+      "term",
+      "memory",
+      "LSTM"
+    ]
+  },
+  {
+    "addr": "http://www.extremetech.com/extreme/206521-thought-vectors-could-revolutionize-artificial-intelligence",
+    "hashAddr": 1207370605,
+    "tags": [
+      "strong",
+      "ai",
+      "thought",
+      "vector",
+      "article"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/270415/",
+    "hashAddr": 968951083,
+    "tags": [
+      "habr",
+      "270415",
+      "radio",
+      "script",
+      "plural"
+    ]
+  },
+  {
+    "addr": "http://habrahabr.ru/post/270449/",
+    "hashAddr": 970535828,
+    "tags": [
+      "habr",
+      "270449",
+      "ml",
+      "python",
+      "script",
+      "splural"
+    ]
+  },
+  {
+    "addr": "http://docs.embarcadero.com/products/rad_studio/delphiAndcpp2009/HelpUpdate2/EN/html/delphivclwin32/Messages_WM_RBUTTONUP.html",
+    "hashAddr": 1946597027,
+    "tags": [
+      "winapi",
+      "constant",
+      "WM_RBUTTONUP"
+    ]
+  },
+  {
+    "addr": "http://lifehacker.ru/2015/11/09/microlearning/",
+    "hashAddr": 22992538,
+    "tags": [
+      "lifehacker",
+      "study",
+      "microlearning"
     ]
   }
 ]

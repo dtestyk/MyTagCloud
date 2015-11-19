@@ -1060,7 +1060,7 @@ const N_COMMON_TAGS_CLOUD_MAX = 100
 			if( msg.global.hasOwnProperty("garr") ){
 				if( isArray(msg.global.garr) ){
 					garr = msg.global.garr;
-          console.log(JSON.stringify(garr).split('},').join('},\n'))
+          //console.log(JSON.stringify(garr).split('},').join('},\n'))
 				}
 			}
 		}
